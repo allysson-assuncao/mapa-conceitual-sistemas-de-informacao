@@ -1,0 +1,22 @@
+Atividade Mapa Conceitual/Mental 2026
+
+
+Supunha que um estudante do ensino médio deseja estudar a possibilidade de entrar no curso de Bacharelado em Sistemas de Informação do IFMG campus Ouro Branco.
+Neste sentido desenvolva um Mapa Digital on-line contendo:
+
+Quais são as áreas e disciplinas derivadas delas.
+Exemplo: Redes de Computadores e Sistemas Distribuídos formam uma área.
+Quais as relações das disciplinas com as possibilidades de carreira.
+Exemplo: as disciplinas de Programação Orientada a Objetos, Algoritmos, Engenharia de Software, Banco de Dados, Programação WEB e Interface Humano-Computador podem ser o caminho possível para formar um Desenvolvedor Full-Stack.
+
+Lembre-se que o seu mapa deve abordar todos os caminhos possíveis.
+Para desenvolver o projeto você pode utilizar o site roadmap.sh de referência, mas cuidado: os Road Maps incluem um caminho específico para um objetivo. O seu mapa deve envolver todas as carreiras relacionadas ao curso.
+
+Os dados devem ser baseados no PPC do curso.
+
+O site deve ser colocado no ar no repositório do Git-Hub.
+
+
+Basicamente o objetivo do trabalho é a elaboração de um projeto no Github com um Mapa Conceitual interativo com as relações entre áreas da computação, disciplinas (considerando o PPC do curso) para auxiliar na decisão de um possível aluno ingressante. O Mapa em si, deve ser basicamente uma interface (só o "frontend" com um "banco" estático) com áreas ligadas a disciplinas, com "força" da conexão podendo variar (poderia ser representado pelo tamanho ou cor, por exemplo), uma disciplina pode estar relacionada a várias áreas. Tanto as disciplinas quanto as áreas podem ter descrições e detalhes específicos quando o usuário clica para expandir, explicando os conteúdos e skills principais, ferramentas de desenvolvimento, atividades desenvolvidas... podem ter algumas categorias, como nível de dificuldade, se é mais prática ou teórica. Também devemos indicar o nível de dependência entre diversas disciplinas.
+
+Ao final, deve ser feito o deploy dessa interface estática interativa e envio do link para acesso público e avaliação do professor.
