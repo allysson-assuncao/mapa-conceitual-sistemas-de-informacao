@@ -1,5 +1,6 @@
 'use client';
 import { useMapStore } from '@/store/map-store';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 export function MapControls() {
   const { showOptional, toggleShowOptional } = useMapStore();
@@ -10,12 +11,13 @@ export function MapControls() {
         onClick={toggleShowOptional}
         className={`px-4 py-2 rounded-lg text-sm font-medium transition-all border ${
           showOptional
-            ? 'bg-indigo-600 border-indigo-500 text-white'
-            : 'bg-slate-800 border-slate-600 text-slate-300 hover:border-indigo-500'
+            ? 'bg-primary border-primary text-primary-foreground'
+            : 'bg-background border-border text-foreground hover:border-primary'
         }`}
       >
         {showOptional ? 'Ocultar Optativas' : 'Mostrar Optativas'}
       </button>
+      <ThemeToggle />
     </div>
   );
 }

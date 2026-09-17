@@ -11,7 +11,7 @@ export function DetailPanel() {
     <Sheet open={selectedNode !== null} onOpenChange={() => clearSelection()}>
       <SheetContent
         side="right"
-        className="w-full max-w-lg overflow-y-auto bg-slate-900 border-slate-700 text-slate-100"
+        className="w-full max-w-lg overflow-y-auto p-4 bg-slate-900 border-slate-700 text-slate-100"
       >
         <SheetHeader>
           <SheetTitle className="text-slate-100">
