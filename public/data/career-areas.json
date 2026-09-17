@@ -1,0 +1,82 @@
+[
+  {
+    "id": "career-fullstack",
+    "name": "Desenvolvedor Full-Stack",
+    "description": "Desenvolve aplicações web completas, atuando tanto no front-end (interfaces de usuário) quanto no back-end (servidores, APIs e bancos de dados). É um dos perfis mais demandados pelo mercado.",
+    "color": "#6366f1",
+    "icon": "Code2",
+    "marketDemand": "high",
+    "salaryRange": "R$ 5.000 – R$ 18.000",
+    "disciplineIds": ["OBBGSIN.085", "OBBGSIN.010", "OBBGSIN.022", "OBBGSIN.016", "OBBGSIN.023", "OBBGSIN.017", "OBBGSIN.041", "OBBGSIN.026", "OBBGSIN.039", "OBBGSIN.103"]
+  },
+  {
+    "id": "career-data-scientist",
+    "name": "Cientista de Dados / Analista de BI",
+    "description": "Coleta, processa e analisa grandes volumes de dados para gerar insights estratégicos. Utiliza machine learning, estatística e visualização de dados para apoiar decisões.",
+    "color": "#0ea5e9",
+    "icon": "BarChart3",
+    "marketDemand": "high",
+    "salaryRange": "R$ 6.000 – R$ 20.000",
+    "disciplineIds": ["OBBGSIN.085", "OBBGSIN.016", "OBBGSIN.031", "OBBGSIN.034", "OBBGSIN.021", "OBBGSIN.020", "OBBGSIN.033", "OBBGSIN.068", "OBBGSIN.036", "OBBGSIN.019"]
+  },
+  {
+    "id": "career-infra",
+    "name": "Engenheiro de Infraestrutura / DevOps",
+    "description": "Gerencia servidores, redes, pipelines de CI/CD e infraestrutura em nuvem. Garante a disponibilidade, segurança e escalabilidade dos sistemas.",
+    "color": "#10b981",
+    "icon": "Server",
+    "marketDemand": "high",
+    "salaryRange": "R$ 5.500 – R$ 17.000",
+    "disciplineIds": ["OBBGSIN.029", "OBBGSIN.037", "OBBGSIN.030", "OBBGSIN.024", "OBBGSIN.013", "OBBGSIN.041", "OBBGSIN.019", "OBBGSIN.066"]
+  },
+  {
+    "id": "career-ai-engineer",
+    "name": "Engenheiro de Inteligência Artificial",
+    "description": "Projeta e implementa sistemas inteligentes, incluindo machine learning, redes neurais, processamento de linguagem natural e visão computacional.",
+    "color": "#f59e0b",
+    "icon": "Brain",
+    "marketDemand": "high",
+    "salaryRange": "R$ 8.000 – R$ 25.000",
+    "disciplineIds": ["OBBGSIN.085", "OBBGSIN.009", "OBBGSIN.015", "OBBGSIN.034", "OBBGSIN.031", "OBBGSIN.021", "OBBGSIN.020", "OBBGSIN.038", "OBBGSIN.096", "OBBGSIN.068", "OBBGSIN.095"]
+  },
+  {
+    "id": "career-it-manager",
+    "name": "Gestor de TI / Analista de Sistemas",
+    "description": "Planeja estrategicamente o uso de tecnologia nas organizações, gerencia equipes técnicas, define processos de governança e alinha TI aos objetivos de negócio.",
+    "color": "#8b5cf6",
+    "icon": "Briefcase",
+    "marketDemand": "medium",
+    "salaryRange": "R$ 5.000 – R$ 15.000",
+    "disciplineIds": ["OBBGSIN.011", "OBBGSIN.019", "OBBGSIN.036", "OBBGSIN.040", "OBBGSIN.044", "OBBGSIN.018", "OBBGSIN.049", "OBBGSIN.102", "OBBGSIN.081", "OBBGSIN.059"]
+  },
+  {
+    "id": "career-mobile",
+    "name": "Desenvolvedor Mobile",
+    "description": "Cria aplicativos para smartphones e tablets (Android e iOS) com interfaces ricas e integração com APIs e serviços em nuvem.",
+    "color": "#ec4899",
+    "icon": "Smartphone",
+    "marketDemand": "high",
+    "salaryRange": "R$ 4.500 – R$ 16.000",
+    "disciplineIds": ["OBBGSIN.085", "OBBGSIN.010", "OBBGSIN.022", "OBBGSIN.039", "OBBGSIN.016", "OBBGSIN.023", "OBBGSIN.026", "OBBGSIN.017"]
+  },
+  {
+    "id": "career-security",
+    "name": "Especialista em Segurança da Informação",
+    "description": "Protege sistemas, redes e dados contra ameaças cibernéticas. Realiza testes de penetração, auditorias e implementa políticas de segurança.",
+    "color": "#ef4444",
+    "icon": "Shield",
+    "marketDemand": "high",
+    "salaryRange": "R$ 6.000 – R$ 20.000",
+    "disciplineIds": ["OBBGSIN.029", "OBBGSIN.037", "OBBGSIN.030", "OBBGSIN.044", "OBBGSIN.019", "OBBGSIN.013", "OBBGSIN.028", "OBBGSIN.066"]
+  },
+  {
+    "id": "career-game-dev",
+    "name": "Desenvolvedor de Jogos",
+    "description": "Cria jogos digitais para PC, console e mobile, combinando programação, computação gráfica, inteligência artificial e design de interação.",
+    "color": "#14b8a6",
+    "icon": "Gamepad2",
+    "marketDemand": "medium",
+    "salaryRange": "R$ 3.500 – R$ 12.000",
+    "disciplineIds": ["OBBGSIN.085", "OBBGSIN.010", "OBBGSIN.022", "OBBGSIN.070", "OBBGSIN.034", "OBBGSIN.021", "OBBGSIN.097", "OBBGSIN.095", "OBBGSIN.026"]
+  }
+]

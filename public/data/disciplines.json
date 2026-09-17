@@ -1,0 +1,1939 @@
+[
+  {
+    "id": "OBBGSIN.085",
+    "name": "Introdução à Programação",
+    "semester": 1,
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Obrigatória",
+    "description": "Conceitos relacionados a algoritmos e programação de computadores. Metodologias de desenvolvimento de programas. Representação gráfica e textual de algoritmos. Desenvolvimento de programas em uma linguagem de alto nível: compilação/interpretação; tipos dados; operadores aritméticos e expressões aritméticas; operadores lógicos e expressões lógicas; entrada e saída; instruções de sequência, seleção e repetição; tipos de dados compostos homogêneos; registros, arquivos; modularização.",
+    "objectives": "Compreender o conceito de algoritmo, suas formas de representação e desenvolver a lógica básica de programação. Desenvolver a abstração de problemas e suas soluções usando programação procedimental, compreendendo os estágios da transformação dos dados em informações (entrada, processamento e saída). Praticar a representação de algoritmos e o desenvolvimento de programas.",
+    "type": "mixed",
+    "difficulty": 2,
+    "skills": [
+      "Lógica de programação",
+      "Depuração de código",
+      "Pensamento algorítmico",
+      "Abstração de problemas"
+    ],
+    "tools": [
+      "Python",
+      "VisualG",
+      "VS Code"
+    ],
+    "activities": [
+      "Desenvolvimento de algoritmos",
+      "Implementação de programas em linguagem de alto nível",
+      "Resolução de exercícios práticos"
+    ],
+    "dependencies": [],
+    "tags": [
+      "programação",
+      "algoritmos",
+      "iniciante"
+    ]
+  },
+  {
+    "id": "OBBGSIN.044",
+    "name": "Ética e Legislação",
+    "semester": 1,
+    "total_hours": 32,
+    "theory_hours": 32,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Ética: conceito; distinção entre ética e moral, distinção entre ética e lei; ética teórica, ética aplicada e ética profissional; a ética e as disciplinas dos profissionais de computação. Introdução geral ao Direito com ênfase nos Direitos humanos. Confidencialidade e privacidade dos dados: acesso não autorizado a recursos computacionais, efeitos jurídicos e suas implicações. Marco Civil da Internet. Direitos de propriedade de software: registro de software; direito autoral e direito patentário; Aspectos da criminalidade informática; “pirataria” e crimes contra a propriedade intelectual (Lei No 9.609 de 19/02/1998, Lei No 5.988 de 14/12/1973 e Decreto-lei No 2.848 de 07/12/1940, Título III, Capítulo I). Educação ambiental, acordos climáticos e suas influências na legislação. Multiculturalismo, relações étnico-raciais e história e cultura afro-brasileira e indígena nas relações de trabalho aplicados à Informática.",
+    "objectives": "Favorecer o desenvolvimento da consciência crítica e profissional possibilitando a atuação diferenciada e qualificada na sociedade. Compreender os princípios da ética social, profissional e ambiental. Estimular a análise crítica de situações comuns na atuação profissional a partir dos preceitos éticos e em consonância com a visão geral de direitos humanos.",
+    "type": "theoretical",
+    "difficulty": 2,
+    "skills": [
+      "Habilidade geral em Ética e Legislação"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.001",
+    "name": "Introdução a Sistemas de Informação",
+    "semester": 1,
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Obrigatória",
+    "description": " 5     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br Histórico e visão geral da computação, Introdução a Organização de Computadores, Introdução a Algoritmos e Programação, Sistemas de Numeração, Lógica Proposicional, Álgebra Boleana e Simplificação, Portas Lógicas, Métodos de Prova, Introdução a Redes, Introdução a Engenharia de Software, Sistemas de Informação.",
+    "objectives": "Introduzir uma visão geral da área de computação, conceitos relacionados a Hardware e Software, os tipos de softwares existentes e como são aplicados na prática. Apresentar formas de representação, os sistemas numéricos e conversões. Conceitos básicos de lógica proposicional e álgebra boleana. Introduzir brevemente conceitos relacionados a sistemas de informação, banco de dados e áreas que compõem a computação.",
+    "type": "mixed",
+    "difficulty": 2,
+    "skills": [
+      "Habilidade geral em Introdução a Sistemas de Informação"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "programação"
+    ]
+  },
+  {
+    "id": "OBBGSIN.011",
+    "name": "Princípios da Administração I",
+    "semester": 1,
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Fundamentos da Administração. Administração Científica; Teoria Clássica de Administração; Teoria das Relações Humanas, Modelo Burocrático de Organização e Teoria Neoclássica da Administração. Temas atuais em administração e Negócios de Tecnologia.",
+    "objectives": "Definir conceitos básicos de Gestão Empresarial; Estudar e entender o surgimento e a evolução das Ciências Gerenciais; Mostrar a importância da Administração como uma atividade imprescindível no desenvolvimento das organizações e da sociedade; Desenvolver uma postura crítica das teorias da administração.",
+    "type": "theoretical",
+    "difficulty": 2,
+    "skills": [
+      "Habilidade geral em Princípios da Administração I"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "gestão"
+    ]
+  },
+  {
+    "id": "OBBGSIN.007",
+    "name": "Português Instrumental I",
+    "semester": 1,
+    "total_hours": 32,
+    "theory_hours": 32,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Ortografia oficial. Concordância nominal e verbal. Regência nominal e verbal. Emprego da crase. Pontuação. Estratégias globais de leitura e análise de textos. Coesão e coerência textuais. Tipos e gêneros textuais. Leitura e produção de textos técnicos e acadêmico-científicos.",
+    "objectives": "Habilitar o aluno a ler, interpretar e produzir textos técnicos e acadêmico-científicos (narrativos, dissertativos, argumentativos, opinativos) de acordo com a situação comunicativa, levando-se em conta a sua coesão e coerência e suas características e formatação. Compreender a língua como fenômeno histórico, cultural, social, variável, heterogêneo e sensível aos contextos de uso. Compreender a língua padrão como uma das variedades linguísticas cuja função social é veicular as ideias pela escrita, principalmente, em contextos formais. Aprimorar os potenciais cognitivo, crítico e colaborativo dos alunos, através do desenvolvimento das habilidades de leitura e produção de textos e também através da utilização de feedback como estratégia de revisão e reescrita dos textos produzidos. Reconhecer e utilizar estratégias de leitura na compreensão e na produção de textos, produtiva e autonomamente.",
+    "type": "theoretical",
+    "difficulty": 2,
+    "skills": [
+      "Habilidade geral em Português Instrumental I"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.101",
+    "name": "Pré-Cálculo",
+    "semester": 1,
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Funções: definição, domínio, imagem, gráficos. Tipos de funções: 1º grau, 2º grau, modular, exponencial, logarítmica, trigonométrica, polinomial, composta, inversa.",
+    "objectives": "Preparar o estudante para a disciplina Cálculo Diferencial e Integral I. Desenvolver o raciocínio lógico matemático. Dar embasamento para o entendimento de funções matemáticas e suas possíveis aplicações na computação. Permitir o aluno entender o comportamento gráfico das funções.",
+    "type": "theoretical",
+    "difficulty": 2,
+    "skills": [
+      "Habilidade geral em Pré-Cálculo"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "matemática"
+    ]
+  },
+  {
+    "id": "OBBGSIN.009",
+    "name": "Algoritmos e Estrutura de Dados I",
+    "semester": 2,
+    "total_hours": 64,
+    "theory_hours": 30,
+    "practice_hours": 34,
+    "nature": "Obrigatória",
+    "description": "Conceitos de estruturas de dados e tipos de dados abstratos (TDA). Listas Lineares. Implementação de listas lineares usando alocação estática e acesso sequencial. Implementação de listas lineares usando alocação dinâmica e acesso encadeado. Pilhas. Filas. Algoritmos de busca e ordenação. Tabelas de Dispersão. Manipulação de estruturas de dados utilizando uma linguagem de programação.",
+    "objectives": "Compreender o conceito de tipos abstratos de dados, conhecer e selecionar a estrutura de dados e os algoritmos mais adequados para determinado problema. Compreender as estruturas de dados, algoritmos associados e sua inter-relação. Conhecer métodos e técnicas para a construção de algoritmos eficientes. Conhecer as estruturas de dados lineares, bem como os principais algoritmos para manipulação e ordenação destas estruturas. Capacitar o aluno para a implementação dos algoritmos para a criação e manipulação de estruturas de dados lineares.",
+    "type": "mixed",
+    "difficulty": 2,
+    "skills": [
+      "Habilidade geral em Algoritmos e Estrutura de Dados I"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "programação"
+    ]
+  },
+  {
+    "id": "OBBGSIN.012",
+    "name": "Cálculo Diferencial e Integral",
+    "semester": 2,
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Funções. Limite e Continuidade. Derivadas e Aplicações. Integrais indefinidas. Integrais definidas e Aplicações. Técnicas de Integração.",
+    "objectives": " 9     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br Dominar os fundamentos matemáticos básicos e de cálculo diferencial de funções de uma variável real a fim de levar o aluno a se familiarizar com a linguagem da matemática e com os métodos de construção do conhecimento matemático, bem como capacitar os alunos para a resolução de problemas relacionados à área específica de formação.",
+    "type": "theoretical",
+    "difficulty": 2,
+    "skills": [
+      "Habilidade geral em Cálculo Diferencial e Integral"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "matemática"
+    ]
+  },
+  {
+    "id": "OBBGSIN.003",
+    "name": "Inglês Instrumental I",
+    "semester": 2,
+    "total_hours": 32,
+    "theory_hours": 32,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Estratégias para leitura em língua inglesa. Noções fundamentais da estrutura da língua. Aquisição de vocabulário.",
+    "objectives": "Preparar o estudante para realizar leituras, principalmente, de textos técnicos na língua inglesa. Expandir o vocabulário do aluno na língua inglesa. Preparar o estudante para compreender estruturas da língua inglesa. Desenvolver a compreensão de variados termos da língua inglesa.",
+    "type": "theoretical",
+    "difficulty": 2,
+    "skills": [
+      "Habilidade geral em Inglês Instrumental I"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.002",
+    "name": "Métodos e Técnicas de Pesquisa",
+    "semester": 2,
+    "total_hours": 32,
+    "theory_hours": 32,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Ciência e Conhecimento Científico. Diferença entre Ciência e Tecnologia. Fundamentos da Metodologia Científica. Métodos e técnicas de pesquisa, problema e hipótese, revisão de literatura. Normalização do trabalho científico (ABNT). Elaboração de projeto de pesquisa, artigo científico e relatório de pesquisa.",
+    "objectives": "Fornecer os fundamentos, os métodos e as técnicas de análise na produção do conhecimento científico. Compreender as fases de elaboração e desenvolvimento de pesquisas e trabalhos acadêmicos. Conhecer as normas e estruturar textos técnicos científicos. Contribuir para o desenvolvimento dos trabalhos no decorrer do curso ao compreender a elaboração de projetos/relatório/artigos.",
+    "type": "theoretical",
+    "difficulty": 2,
+    "skills": [
+      "Habilidade geral em Métodos e Técnicas de Pesquisa"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.010",
+    "name": "Programação Orientada a Objetos I",
+    "semester": 2,
+    "total_hours": 64,
+    "theory_hours": 30,
+    "practice_hours": 34,
+    "nature": "Obrigatória",
+    "description": "Modelagem conceitual: abstração X representação. O Modelo de Objetos e seus pilares: classes e objetos, métodos, encapsulamento, herança, composição, polimorfismo. Classes internas (inner classes). Tratamento de erros, exceções e eventos em programas.",
+    "objectives": "Desenvolver a capacidade de abstração de problemas para soluções em software orientado a objetos. Utilizar linguagens de programação orientadas a objetos e seus recursos no desenvolvimento de programas. Compreender a aplicação soluções documentadas (padrões) no desenvolvimento de software. ",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Abstração",
+      "Encapsulamento",
+      "Herança",
+      "Polimorfismo",
+      "Modelagem OO"
+    ],
+    "tools": [
+      "Java",
+      "IntelliJ IDEA",
+      "UML"
+    ],
+    "activities": [
+      "Modelagem de classes",
+      "Implementação de herança e polimorfismo",
+      "Tratamento de exceções"
+    ],
+    "dependencies": [
+      "OBBGSIN.085"
+    ],
+    "tags": [
+      "oop",
+      "java",
+      "programação"
+    ]
+  },
+  {
+    "id": "OBBGSIN.013",
+    "name": "Sistemas Digitais e Circuitos Combinacionais",
+    "semester": 2,
+    "total_hours": 64,
+    "theory_hours": 44,
+    "practice_hours": 20,
+    "nature": "Obrigatória",
+    "description": "Sistemas de Numeração e Códigos. Circuitos Lógicos e Combinacionais. Flip-Flops. Aritmética Digital. Contadores e Registradores. Circuitos Integrados e Lógicos. Projetos de Sistemas Digitais. Dispositivos de Memória.",
+    "objectives": "Compreensão dos princípios fundamentais de sistemas digitais. Promover uma análise do funcionamento de circuitos digitais e a compreensão do projeto de circuitos lógicos combinacionais. Noções básicas do funcionamento eletrônico dos computadores.",
+    "type": "mixed",
+    "difficulty": 2,
+    "skills": [
+      "Habilidade geral em Sistemas Digitais e Circuitos Combinacionais"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.015",
+    "name": "Algoritmos e Estrutura de Dados II",
+    "semester": 3,
+    "total_hours": 64,
+    "theory_hours": 34,
+    "practice_hours": 30,
+    "nature": "Obrigatória",
+    "description": "Árvores binárias de busca, árvores binárias balanceadas, árvores B, árvores digitais. Processamento de Cadeia de Caracteres. Grafos: representação e algoritmos; busca em largura e profundidade. Manipulação de estruturas de dados utilizando uma linguagem de programação.",
+    "objectives": "Compreender estruturas de dados hierarquizadas e principais algoritmos para manipulação, percurso, busca e ordenação de seus elementos. Selecionar a estrutura de dados e os algoritmos mais adequados ao problema. Praticar a programação com a definição e utilização de estruturas de dados hierárquicas. Utilizar bibliotecas de programação (API) de linguagens de programação.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Algoritmos e Estrutura de Dados II"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "programação"
+    ]
+  },
+  {
+    "id": "OBBGSIN.016",
+    "name": "Banco de Dados I",
+    "semester": 3,
+    "total_hours": 64,
+    "theory_hours": 34,
+    "practice_hours": 30,
+    "nature": "Obrigatória",
+    "description": "Modelo relacional. Arquitetura de um Sistema de Gerenciamento de Banco de Dados Relacional (SGBDR). Modelagem de bancos de dados relacionais: conceitual e lógica. Linguagem de definição de dados. Linguagem de manipulação de dados. Dependência funcional. Normalização. Transações. Implementação de aplicações usando um SGBDR e uma linguagem de definição e manipulação de dados (SQL) embutida em uma linguagem de programação.",
+    "objectives": "Capacitar o aluno a utilizar princípios teóricos e ferramentas para modelar um banco de dados relacional; Implementar sistemas de informação utilizando um gerenciador de banco de dados que inclua as principais tecnologias disponíveis na área, como por exemplo, integridade referencial e transações.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Modelagem relacional",
+      "SQL",
+      "Normalização",
+      "Design de esquemas"
+    ],
+    "tools": [
+      "MySQL",
+      "PostgreSQL",
+      "MySQL Workbench",
+      "brModelo"
+    ],
+    "activities": [
+      "Modelagem ER",
+      "Consultas SQL complexas",
+      "Normalização de tabelas",
+      "Integração com linguagem de programação"
+    ],
+    "dependencies": [
+      "OBBGSIN.085"
+    ],
+    "tags": [
+      "banco de dados",
+      "sql",
+      "modelagem"
+    ]
+  },
+  {
+    "id": "OBBGSIN.018",
+    "name": "Contabilidade",
+    "semester": 3,
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Objeto e objetivo da Contabilidade. A contabilidade como um Sistema de Informação. Convergência da contabilidade brasileira às normas internacionais de contabilidade. O patrimônio e suas variações. Estudo conceitual: ativo, passivo,  14     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br patrimônio líquido, receita e despesa. Método das partidas dobradas. Estrutura das demonstrações financeiras. Balanço patrimonial, Demonstrações do resultado do exercício (DRE) e demais demonstrações financeiras Obrigatórias. Procedimentos contábeis básicos. Encerramento do exercício. Regime de competência versus regime de caixa.",
+    "objectives": "Propiciar aos alunos um conhecimento sólido sobre a importância da contabilidade para a vida empresarial, evidenciar os principais conceitos necessários para o entendimento do processo contábil e a forma estrutural das demonstrações contábeis, bem como tornar os discentes capazes de visualizar as informações relevantes evidenciadas por essas demonstrações.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Contabilidade"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.024",
+    "name": "Arquitetura e Organização de Computadores",
+    "semester": 3,
+    "total_hours": 64,
+    "theory_hours": 44,
+    "practice_hours": 20,
+    "nature": "Obrigatória",
+    "description": "Arquitetura geral de computadores: arquitetura de Von Neumann, organização dos principais componentes; Organização básica da UCP: estruturas internas, modo de operação, execução de instruções, pipeline, execução e interrupções; Formato das instruções e linguagem de máquina; Estruturas de memória: memória principal, secundária, cache e registradores, acesso a memória e modos de endereçamento; Sistemas de entrada e saída; Barramentos.",
+    "objectives": "Capacitar o aluno a reconhecer e projetar arquiteturas de computadores para implantação e desenvolvimento de sistemas computacionais. Mais especificamente, proporcionar o entendimento da organização de computadores como um todo, como também o entendimento dos fluxos e processos necessários para o funcionamento de um computador. Proporcionar o entendimento de detalhes importantes de funcionamento dos principais componentes físicos de um computador e suas integrações com o sistema operacional.  15     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Arquitetura e Organização de Computadores"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.017",
+    "name": "Engenharia de Software I",
+    "semester": 3,
+    "total_hours": 64,
+    "theory_hours": 34,
+    "practice_hours": 30,
+    "nature": "Obrigatória",
+    "description": "Conceitos sobre software, sistemas de software, engenharia de software, análise, projeto e implementação, natureza, caracterização e objetivos da engenharia de software; processos de software; desenvolvimento ágil de software; metodologias de desenvolvimento de software; engenharia de requisitos: tipos de requisitos, métodos e técnicas para elicitação de requisitos de software; modelagem em diferentes níveis de domínio; análise orientada a objetos; modelagem de software orientados a objetos; gerência de configuração de software; testes de software; evolução de software.",
+    "objectives": "Propiciar ao aluno conhecer os fundamentos teóricos e práticos da engenharia de software. Mais especificamente: Conhecer e caracterizar os sistemas de software; conhecer os ciclos de vida de um software; conhecer os modelos, metodologias, processos de desenvolvimento de software, desde sua concepção até a transição para o ambiente de produção; conhecer as melhores práticas para reduzir a complexidade dos sistemas de software e facilitar sua reutilização; conhecer e exercitar o uso de ferramentas de apoio ao processo de desenvolvimento e manutenção de software nas diferentes fases do seu ciclo de vida; conhecer os principais diagramas UML; conhecer a modelagem de software aplicada em diferentes níveis de domínio. Conhecer o processo de gerência de configuração de software e quais as principais ferramentas; conhecer os métodos de testes de software; conhecer o processo de evolução do software.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Engenharia de Software I"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.021",
+    "name": "Álgebra Linear e Geometria Analítica",
+    "semester": 4,
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Equações analíticas de retas, planos, cônicas. Vetores: operações e base. Equações vetoriais de retas e planos. Equações paramétricas. Álgebra de matrizes e determinantes. Autovalores e autovetores. Sistemas lineares: resolução e escalonamento. Espaços vetoriais; subespaços; bases; dimensão; transformações lineares e representação matricial; autovalores e autovetores; produto interno; ortonormalização; diagonalização; formas quadráticas; aplicações.",
+    "objectives": "Aplicar os conceitos básicos da Geometria Analítica e Álgebra Linear para pesquisas e aplicações. Apresentar os fundamentos de geometria analítica e álgebra linear. Capacitar os alunos a resolverem problemas geométricos através de seu correspondente algébrico.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Álgebra Linear e Geometria Analítica"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "matemática"
+    ]
+  },
+  {
+    "id": "OBBGSIN.022",
+    "name": "Programação Orientada a Objetos II",
+    "semester": 4,
+    "total_hours": 64,
+    "theory_hours": 30,
+    "practice_hours": 34,
+    "nature": "Obrigatória",
+    "description": "Classes internas (inner classes): revisão. Classes e métodos genéricos (templates).Tratamento de eventos de interface (GraphicalUser Interface). Programação com múltiplas threads. Persistência de dados. Padrões de Projeto de Software.",
+    "objectives": "Desenvolver a capacidade de abstração de problemas para soluções em software orientado a objetos. Utilizar linguagens de programação orientadas a objetos e seus recursos no desenvolvimento de programas com interface gráfica e persistência de dados. Compreender e aplicar soluções documentadas (padrões) no desenvolvimento de software.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Programação Orientada a Objetos II"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "programação"
+    ]
+  },
+  {
+    "id": "OBBGSIN.020",
+    "name": "Matemática Discreta",
+    "semester": 4,
+    "total_hours": 64,
+    "theory_hours": 44,
+    "practice_hours": 20,
+    "nature": "Obrigatória",
+    "description": "Teoria dos conjuntos: cardinalidade e operações; Recorrência: sequência e somatórios; Métodos de prova: direta, contradição, contrapositiva, indução e contra-exemplo; Conjuntos enumeráveis, não enumeráveis e infinitos; Funções e relações: propriedades, partição, Classes de equivalência, Fechos e relação de ordem; Teoria dos números: MDC e teste dos primos; Conceitos básicos da Teoria de Grafos: grafos e dígrafos; passeios e distâncias; caminhos e ciclos; Modelos de Aplicação. Representação de grafos: grafos isomorfos; subgrafos; representação de grafos por matrizes e listas de adjacência. Árvores: busca em largura e profundidade; árvore geradora; algoritmos de Prim e Kruskal. Caminhos e conectividade: caminho mínimo; algoritmo de Djikstra; conectividade em grafos; grafos bipartidos; grafos Eulerianos e Hamiltonianos. Planaridade em grafos. Coloração de Grafos: conceito e aplicações de coloração de um grafo; número cromático de um grafo; teoremas das quatro cores. Problemas clássicos: Árvores de Steiner; Caixeiro- Viajante.  18     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br",
+    "objectives": "Compreender conceitos básicos de matemática discreta relevantes para grafos e outras disciplinas de computação para resolução de problemas. Introduzir conceitos básicos da Teoria dos Grafos. Apresentar problemas que podem ser representados por grafos. Apresentar algoritmos importantes para a solução de problemas mais conhecidos.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Matemática Discreta"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "matemática"
+    ]
+  },
+  {
+    "id": "OBBGSIN.030",
+    "name": "Sistemas Operacionais",
+    "semester": 4,
+    "total_hours": 64,
+    "theory_hours": 44,
+    "practice_hours": 20,
+    "nature": "Obrigatória",
+    "description": "O histórico, o conceito e os tipos de sistemas operacionais. As estruturas de sistemas operacionais. Gerenciamento de memória. Memória virtual. Conceito de processo. Gerência de processador: escalonamento de processos, monoprocessamento e multiprocessamento. Concorrência e sincronização de processos. Alocação de recursos e deadlocks. Gerenciamento de arquivos. Gerenciamento de dispositivos de entrada/saída.",
+    "objectives": "Oferecer uma visão detalhada dos principais mecanismos envolvidos na concepção de um sistema operacional moderno. Compreender o sistema operacional como software básico. Compreender como ocorre a gerência de Processos, gerência de Memória, gerência de arquivos e gerência de entrada/saída. Enumerar os problemas e as respectivas soluções teóricas que são normalmente encontrados no projeto de um sistema operacional.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Sistemas Operacionais"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.023",
+    "name": "Programação Web",
+    "semester": 4,
+    "total_hours": 64,
+    "theory_hours": 20,
+    "practice_hours": 44,
+    "nature": "Obrigatória",
+    "description": "Desenvolvimento de lado-cliente. Linguagens de marcação (HMTL e CSS). Linguagens de Script (Javascript). Desenvolvimento lado-servidor. Processadores de HyperTexto Sessões. Arquitetura de aplicações WEB.",
+    "objectives": "Preparar o aluno para desenvolver sistemas de informação no formato de WEB sites dinâmicos. Capacitar o aluno em conceitos sites interativos lado cliente. Capacitar o aluno a desenvolver sistemas on-line que acessam e gerências bases de dados. Capacitar o aluno a compreender a arquitetura e estrutura de aplicações WEB.",
+    "type": "practical",
+    "difficulty": 3,
+    "skills": [
+      "HTML/CSS",
+      "JavaScript",
+      "Desenvolvimento responsivo",
+      "Requisições HTTP",
+      "Arquitetura cliente-servidor"
+    ],
+    "tools": [
+      "VS Code",
+      "Node.js",
+      "PHP",
+      "MySQL",
+      "Git"
+    ],
+    "activities": [
+      "Criação de páginas web",
+      "Desenvolvimento de APIs",
+      "Manipulação do DOM",
+      "Integração com banco de dados"
+    ],
+    "dependencies": [
+      "OBBGSIN.085",
+      "OBBGSIN.010"
+    ],
+    "tags": [
+      "web",
+      "front-end",
+      "back-end",
+      "javascript"
+    ]
+  },
+  {
+    "id": "OBBGSIN.041",
+    "name": "Engenharia de Software II",
+    "semester": 5,
+    "total_hours": 64,
+    "theory_hours": 34,
+    "practice_hours": 30,
+    "nature": "Obrigatória",
+    "description": "Desenvolvimento baseado em modelos de processos para sistemas complexos como (RUP); Recursos de suporte para desenvolvimento: uso de ferramentas CASE, documentação de software; Estudo e uso de ferramentas para práticas DevOps; Reuso e reengenharia de software; Desenvolvimento de software com arquiteturas complexas (com uso de REST API e GraphQL);Estudo de DSL (Linguagem Específica de Domínio).",
+    "objectives": "Compartilhar conhecimento sobre métodos, ferramentas e procedimentos de implementação de sistemas de software em geral; Aprofundar a compreensão sobre análise e projeto orientado a objetos; Aplicar o conhecimento sobre principais padrões de projeto e modelos de processos para sistemas complexos; Praticar o uso de desenvolvimento de um sistema completo orientado a objetos com o uso de estilos arquiteturais complexos e aplicar conceitos de medição de qualidade de código; estudo e aprofundamento das práticas DevOps.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Engenharia de Software II"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.031",
+    "name": "Probabilidade e Estatística",
+    "semester": 5,
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Introdução a Estatística. Representação tabular e gráfica dos dados. Medidas de posição. Medidas de dispersão. Regressão e correlação linear simples. Introdução à teoria das probabilidades. Variáveis aleatórias. Principais modelos probabilísticos para variáveis aleatórias discretas e contínuas. Testes de Hipóteses.",
+    "objectives": "Habilitar o estudante para a compreensão da base conceitual e metodológica da estatística requerida no planejamento, análise de dados e interpretação de resultados de pesquisa científica.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Probabilidade e Estatística"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.029",
+    "name": "Redes de Computadores I",
+    "semester": 5,
+    "total_hours": 64,
+    "theory_hours": 44,
+    "practice_hours": 20,
+    "nature": "Obrigatória",
+    "description": "Conceitos básicos e histórico de redes de computadores; Redes de Computadores (WAN, MAN, LAN e PAN); Topologias de redes; Arquitetura de redes; Modelo de referência OSI/ISO. Modelo de referência TCP/IP. Nível Físico: Classificação e características (ruídos, distorções) de meios físicos relevantes. Nível de Enlace: Noções gerais de controle de erros e fluxo; Protocolos de acesso a diferentes meios. Nível de Rede: Endereçamento; Roteamento; Classificação de algoritmos de roteamento; Noções básicas de algoritmos e protocolos de roteamento mais utilizados. Nível de Transporte: tipos de serviços oferecidos, mecanismos básicos, protocolos TCP e UDP. Nível de Aplicação: Protocolos da camada de aplicação. Programação de aplicações utilizando sockets. Tecnologias de redes emergentes.  22     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br",
+    "objectives": "Estudar conceitos básicos de redes de computadores. Discutir conceitos e aspectos tecnológicos de redes de computadores. Apresentar ao aluno sobre os principais protocolos e técnicas utilizadas em cada camada de rede. Deixar o aluno bem ciente de algoritmos em rede para seleção do melhor caminho e algoritmos de tráfego em rede. Capacitar o aluno a escolher os protocolos da rede adjacente apropriados ao desenvolvimento de diferentes tipos de aplicações. Discutir tecnologias de redes atuais.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Redes de Computadores I"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "programação"
+    ]
+  },
+  {
+    "id": "OBBGSIN.019",
+    "name": "Governança e Gestão da Informação",
+    "semester": 5,
+    "total_hours": 64,
+    "theory_hours": 44,
+    "practice_hours": 20,
+    "nature": "Obrigatória",
+    "description": "Conceito de Governança Corporativa e de Tecnologia da Informação e Comunicação (TIC). Governança de TIC e objetivos estratégicos. Responsabilidade e estruturas de decisão. Modelos e Normas relativos à Governança de TIC. Solução de TIC Verde. Inovação em Automação e Informatização de Processos. Cultura informacional. Ambientes e fluxos de informação. Mapeamento de necessidades informacionais. Prospecção e monitoramento informacional. Métodos e técnicas de gestão da informação. Métodos e técnicas de gestão do conhecimento. Inteligência competitiva organizacional.",
+    "objectives": "Capacitar o aluno a compreender os conceitos envolvidos, as habilidades e competências requeridas, as atividades envolvidas no processo de Governança de TIC. Além disso, o aluno deverá reconhecer padrões, modelos, diretrizes, orientações e práticas envolvidas na Governança de TIC. Compreender os processos que envolvem a Gestão da Informação, a Gestão do Conhecimento e a Inteligência Competitiva; Desenvolver as atividades básicas inerentes a Gestão da Informação, Gestão do Conhecimento e Inteligência Competitiva; Reconhecer as dimensões que esses modelos de gestão possuem para as organizações.  23     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Governança e Gestão da Informação"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "gestão"
+    ]
+  },
+  {
+    "id": "OBBGSIN.038",
+    "name": "Projeto e Análise de Algoritmos",
+    "semester": 6,
+    "total_hours": 64,
+    "theory_hours": 44,
+    "practice_hours": 20,
+    "nature": "Obrigatória",
+    "description": "Paradigmas e estratégias de projeto de algoritmos: divisão e conquista, algoritmos gulosos e programação dinâmica. Análise de complexidade de algoritmos. Tópicos em algoritmos em grafos. Problemas do tipo NP-Completo e Algoritmos Aproximados.",
+    "objectives": "Capacitar o estudante para analisar e projetar algoritmos adotando estratégias adequadas para variados tipos de problemas complexos. Dar o entendimento a respeito de diferentes paradigmas que podem ser aplicados na concepção de algoritmos.  Dar embasamento para que o aluno possa analisar a complexidade de algoritmos para desta forma adotar melhores estratégias de implementação. Preparar o estudante para conhecer e desenvolver algoritmos específicos para determinados problemas representados em estrutura de grafos. Permitir que o aluno entenda classes de complexidade para propor soluções aproximadas para problemas do tipo NP-Completo.",
+    "type": "mixed",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Projeto e Análise de Algoritmos"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "programação"
+    ]
+  },
+  {
+    "id": "OBBGSIN.039",
+    "name": "Programação para Dispositivos Móveis",
+    "semester": 6,
+    "total_hours": 64,
+    "theory_hours": 34,
+    "practice_hours": 30,
+    "nature": "Obrigatória",
+    "description": "Visão geral das tecnologias móveis e sem fio. Introdução ao estudo dos Dispositivos Móveis Portáteis. Utilização de Emuladores e Padrões de programação para smartphones e tablets. Dispositivos móveis e persistência de dados. Interfaces gráficas para dispositivos móveis. Tratamento de eventos. Comunicação com servidores. Desenvolvimento de um sistema para dispositivos móveis.",
+    "objectives": "Essa disciplina cumpre dois objetivos. Em primeiro lugar, ela introduz o aluno às noções básicas de programação para dispositivos móveis, em particular tablets e smartphones. Em segundo lugar, a disciplina permite que o aluno exercite os conceitos de programação orientada a objetos, banco de dados, e engenharia de software que foram obtidos ao longo do curso, agora aplicados para dispositivos móveis.",
+    "type": "mixed",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Programação para Dispositivos Móveis"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "programação"
+    ]
+  },
+  {
+    "id": "OBBGSIN.036",
+    "name": "Sistemas de Apoio à Decisão",
+    "semester": 6,
+    "total_hours": 64,
+    "theory_hours": 44,
+    "practice_hours": 20,
+    "nature": "Obrigatória",
+    "description": "Introdução à Teoria Geral de Sistemas. Introdução à informação. Papéis estratégicos de sistemas de informação. Sistemas de informação de suporte ao processo operacional, decisório tático e estratégico (SPT, SAD, SIG, EIS). Tecnologias de informação aplicadas aos sistemas de informação de suporte ao processo decisório estratégico e tático. Desenvolvimento de sistemas de informação de suporte ao processo decisório tático e estratégico. Características e funcionalidades de sistemas de informação de nível tático e estratégico nas organizações. Marketing Digital. Sistemas corporativos (ERP). Informação e Vantagem Competitiva. Sistemas colaborativos.",
+    "objectives": "Prover conceitos de sistemas de informação e suas diferentes aplicações em organizações, capacitando o aluno a reconhecer, selecionar, aplicar, gerenciar, implementar e manter sistemas de informação em variadas empresas de diferentes portes e segmentos.",
+    "type": "mixed",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Sistemas de Apoio à Decisão"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.037",
+    "name": "Sistemas Distribuídos",
+    "semester": 6,
+    "total_hours": 64,
+    "theory_hours": 44,
+    "practice_hours": 20,
+    "nature": "Obrigatória",
+    "description": "Aplicação e Conceitos Fundamentais de Sistemas Distribuídos. Arquitetura de Sistemas Distribuídos. Processos. Nomeação. Comunicação. Sincronização. Tolerância a Falhas. Segurança em Sistemas Distribuídos. Aplicações Distribuídas.",
+    "objectives": "Capacitar o estudante a projetar, desenvolver e aplicar Sistemas Distribuídos para solução de diferentes problemas. Prover para o aluno entendimento a respeito do modo de operação de processos em sistemas computacionais. Capacitar o aluno a utilizar múltiplos recursos computacionais para realizar processamento paralelo de alto desempenho. Dar embasamento para desenvolvimento de sistemas de informação que sejam seguros e tolerantes a falhas. Permitir que o aluno possa propor soluções eficientes para variados problemas através de computação distribuída.",
+    "type": "mixed",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Sistemas Distribuídos"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.026",
+    "name": "Interface Humano Computador",
+    "semester": 7,
+    "total_hours": 64,
+    "theory_hours": 44,
+    "practice_hours": 20,
+    "nature": "Obrigatória",
+    "description": "Interfaces e Interações. Teorias e conceitos em Interação Humano Computador (IHC).  Modelagem, processos e projeto em IHC. Protótipos e Técnicas de Design centrado no Usuário. Técnicas de avaliação de sistemas interativos. Desenho Universal, conforme Decreto n° 5296 de 2 de dezembro de 2004 (BRASIL, 2004a).",
+    "objectives": "Preparar o estudante para planejar, projetar e avaliar sistemas interativos, levando em consideração fatores humanos envolvidos nestes processos. Dar embasamento para o aluno nos principais conceitos e teorias de IHC. Capacitar o estudante a entender o contexto dos usuários de sistemas de informação. Capacitar o estudante a projetar e desenvolver sistemas de informação com enfoque nos usuários.  Prover conhecimento para o estudante a respeito de técnicas de avaliação de interação entre usuários e sistemas computacionais.",
+    "type": "mixed",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Interface Humano Computador"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.040",
+    "name": "Gestão de Projetos",
+    "semester": 7,
+    "total_hours": 32,
+    "theory_hours": 20,
+    "practice_hours": 12,
+    "nature": "Obrigatória",
+    "description": "Contexto da gerência de projetos nas organizações. Coordenação das atividades do projeto e Gerência do escopo do Projeto. Processos de gestão do tempo no contexto do projeto. Mapeamento dos custos do projeto e Gerência da qualidade do projeto. Dimensionado os Recursos Humanos do projeto. Gerência dos riscos do projeto e Gerência das aquisições do projeto.",
+    "objectives": " 28     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br Entender a gestão de projetos como ferramenta eficaz para a resolução de problemas não recorrentes e de elevado grau de complexidade. Criar, gerenciar ou participar da equipe de gerenciamento de projetos, elaborando e utilizando os instrumentos de controle específicos das diversas áreas de gerenciamento de projetos.",
+    "type": "mixed",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Gestão de Projetos"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "gestão"
+    ]
+  },
+  {
+    "id": "OBBGSIN.034",
+    "name": "Inteligência Artificial",
+    "semester": 7,
+    "total_hours": 64,
+    "theory_hours": 44,
+    "practice_hours": 20,
+    "nature": "Obrigatória",
+    "description": "Conceitos básicos e paradigmas relacionados com a Inteligência Artificial (IA). Evolução da Inteligência Artificial. Resolução de problemas e busca no espaço de estados. Métodos evolutivos. Representação do conhecimento. Princípios de sistemas especialistas. Aprendizado de Máquina. Redes Neurais Artificiais.",
+    "objectives": "Capacitar o aluno a avaliar, desenvolver e aplicar sistemas inteligentes para solução de problemas complexos. Capacitar o aluno para propor e aplicar algoritmos e técnicas para solução de problemas. Dar embasamento para o estudante propor estruturas de representação de conhecimento. Capacitar o aluno para entender e aplicar técnicas de aprendizado de máquina em sistemas de informação.",
+    "type": "mixed",
+    "difficulty": 4,
+    "skills": [
+      "Machine Learning",
+      "Busca heurística",
+      "Redes neurais",
+      "Representação do conhecimento"
+    ],
+    "tools": [
+      "Python",
+      "scikit-learn",
+      "TensorFlow",
+      "Jupyter Notebook"
+    ],
+    "activities": [
+      "Implementação de algoritmos de busca",
+      "Treinamento de modelos ML",
+      "Projetos com redes neurais"
+    ],
+    "dependencies": [
+      "OBBGSIN.085",
+      "OBBGSIN.031",
+      "OBBGSIN.021"
+    ],
+    "tags": [
+      "IA",
+      "machine learning",
+      "redes neurais"
+    ]
+  },
+  {
+    "id": "OBBGSIN.091",
+    "name": "Trabalho de Conclusão de Curso I",
+    "semester": 7,
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Desenvolvimento de um trabalho sob orientação de um professor do curso. Elaboração de um artigo científico para congresso ou revista, sendo trabalho completo ou linha de pesquisa, ou uma monografia.",
+    "objectives": "Consolidar conhecimentos adquiridos durante o restante do curso por meio de aplicação em um projeto desenvolvido usando metodologia científica; elaborar um artigo científico para congresso ou revista, sendo trabalho completo ou linha de pesquisa, ou uma monografia, conforme regulamento específico de trabalho de conclusão de curso.",
+    "type": "theoretical",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Trabalho de Conclusão de Curso I"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.102",
+    "name": "Empreendedorismo",
+    "semester": 8,
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Empreendedorismo em diferentes perspectivas: financeira, mercadológica, corporativa e social. Pesquisa, Desenvolvimento e Inovação com atividades empreendedoras. Empreendedorismo e sustentabilidade. Estruturação de planos de negócios.",
+    "objectives": "Analisar o contexto histórico e atual da administração empreendedora e elaborar um plano de negócios.",
+    "type": "theoretical",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Empreendedorismo"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.103",
+    "name": "Qualidade de Software",
+    "semester": 8,
+    "total_hours": 64,
+    "theory_hours": 44,
+    "practice_hours": 20,
+    "nature": "Obrigatória",
+    "description": "Caracterização de defeitos em software; histórico e conceitos de qualidade de software: medida do valor da qualidade; classificação dos sistemas intensivos em software e suas necessidades de qualidade; métricas de análise de qualidade de software; modelos de avaliação e melhoria da qualidade dos produtos e processos de software. Teste de softwares.",
+    "objectives": "Conhecer os princípios da qualidade de software; Avaliar as necessidades de qualidade de sistemas de informação; Conhecer as estratégias e modelos de avaliação visando à melhoria da qualidade dos produtos e processos de software; Projetar, implementar e executar teste de softwares.",
+    "type": "mixed",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Qualidade de Software"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.092",
+    "name": "Trabalho de Conclusão de Curso II",
+    "semester": 8,
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Obrigatória",
+    "description": "Desenvolvimento de um trabalho sob orientação de um professor do curso. Elaboração de um artigo científico para congresso ou revista, sendo trabalho completo ou linha de pesquisa, ou uma monografia.",
+    "objectives": "Consolidar conhecimentos adquiridos durante o restante do curso por meio de aplicação em um projeto desenvolvido usando metodologia científica; elaborar um artigo científico para congresso ou revista, sendo trabalho completo ou linha de pesquisa, ou uma monografia, conforme regulamento específico de trabalho de conclusão de curso.",
+    "type": "theoretical",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Trabalho de Conclusão de Curso II"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.035",
+    "name": "Administração Financeira I",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Introdução ao Mercado Financeiro. Funções e estrutura financeira das empresas. Fontes de financiamento das atividades da empresa. Administração de capital de giro: financiamento de curto prazo, conceitos e modelos de gestão de capital de giro. Orçamento de caixa. Teoria do portfólio. Avaliação de títulos de renda fixa. Avaliação de ações.",
+    "objectives": "Proporcionar aos alunos uma visão geral da área financeira, apresentando aspectos relevantes sobre as decisões estratégicas de finanças. Evidenciar a aplicação de ferramentas para o controle e gestão das atividades financeiras de curto prazo. Identificação dos aspectos que estão envolvidos na avaliação de títulos de renda fixa e ações.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Administração Financeira I"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "gestão"
+    ]
+  },
+  {
+    "id": "OBBGSIN.057",
+    "name": "Avaliação de Empresas",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Fundamentos e metodologias de avaliação de empresas. Análise fundamentalista. Valor Econômico Agregado (EVA/MVA). Geração de Valor. Fluxo de caixa descontado e APV. Fluxo de caixa livre para o acionista e para a empresa. Fluxo de Caixa em perpetuidade. Avaliação relativa. Avaliação através de múltiplos. ",
+    "objectives": "Conhecer os métodos de avaliação de empresas e as especificidades dos processos de avaliação. Analisar como ocorre a geração de valor para os acionistas. Avaliar empresas e projetos utilizando técnicas usadas no mercado.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Avaliação de Empresas"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.033",
+    "name": "Banco de Dados II",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 34,
+    "practice_hours": 30,
+    "nature": "Optativa",
+    "description": "",
+    "objectives": "Capacitar o aluno a escolher métodos e implementar algoritmos adequados à solução de problemas que envolvem a organização de dados estruturados e armazenadas em disco, bem como a recuperação de informações a partir destes dados, usando uma linguagem de consulta e técnicas de implementação de sistemas de gerenciamento de banco de dados, como uso de estruturas de dados avançados.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Banco de Dados II"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.079",
+    "name": "Cálculo Numérico",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Sistemas de Numeração. Estudo sobre erros em aritmética de ponta flutuante, cálculo de raízes de funções algébricas e transcendentes por métodos numéricos, refinamento de soluções de sistemas, aproximação de funções, interpolação polinomial, integração numérica.",
+    "objectives": "Ensinar ao estudante métodos numéricos com a teoria matemática de aritmética de ponto flutuante, sistemas lineares, interpolação e integração numérica assim como treiná-lo para fazer algoritmos que implementam os métodos numéricos da literatura pertinentes a estes tópicos citados. Dar capacidade ao aluno para avaliar erros, perceber a importância de erros, truncamentos, arredondamentos e aplicação de algoritmos para verificações e soluções na engenharia. Habilitar o estudante para a compreensão da base conceitual de métodos numéricos, lhe dando capacidade de avaliar projetos e erros, formular e implementar algoritmos para correções numéricas, escolher o método numérico adequado para resolução de problemas relacionados à engenharia; identificar a causa de erros das soluções numéricas; perceber a importância e o grau de aplicabilidade dos diferentes métodos estudados na modelagem de situações concretas; demonstrar capacidade de dedução, raciocínio lógico, visão espacial e de promover abstrações.",
+    "type": "theoretical",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Cálculo Numérico"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "matemática"
+    ]
+  },
+  {
+    "id": "OBBGSIN.025",
+    "name": "Comportamento Organizacional",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Introdução ao Comportamento Organizacional; Fundamentos do Comportamento Individual, Valores, atitudes e satisfação com o trabalho; Poder e política; Estudo da Motivação; Grupos nas Organizações; Comunicação interpessoal e organizacional; Liderança e Confiança; Conflito e Negociação; Cultura Organizacional.",
+    "objectives": "Identificar e compreender os diversos comportamentos dos indivíduos, considerando sua necessidade em atingir objetivos pessoais (profissionais) no âmbito da organização. Estudar teorias relacionada ao comportamento humano nas organizações, principalmente sobre: liderança, motivação, conflito, mudança organizacional. Entender e analisar comportamento organizações (grupos de trabalhadores).",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Comportamento Organizacional"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.070",
+    "name": "Computação Gráfica",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Fundamentos de cor; Modelagem Geométrica; Transformações geométricas; Projeção perspectiva; Recorte, rasterização, cálculo das superfícies visíveis; Iluminação; Técnicas de Mapeamento de Texturas; Animação; APIs de desenvolvimento para Computação gráfica; Desenvolvimento de jogos gráficos e sistemas de Computação gráfica.",
+    "objectives": " 37     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br A disciplina deve capacitar o aluno para compreender os conceitos, características e técnicas de desenvolvimento de sistemas gráficos 2D e 3D, com o objetivo de desenvolver sistemas que apliquem tais conceitos como jogos e animações gráficas.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Computação Gráfica"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.081",
+    "name": "Consultoria Empresarial",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Conceito, evolução e tendências da consultoria. O perfil do consultor. Metodologia da consultoria. O cliente e a identificação de suas necessidades. Transferência de tecnologia e geração de resultados. Diagnósticos empresariais.",
+    "objectives": "Fornecer aos discentes as condições básicas para a prestação de serviços de consultoria tanto internamente quanto externamente.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Consultoria Empresarial"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.049",
+    "name": "Gerência de Projetos de Software",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Ciclo de vida de produtos e projetos de software; Métricas de Software; Determinação de prazo; Estimativas. Planejamento; Gerência de riscos. Gerenciamento de Configuração de Software. Gerência em métodos ágeis.",
+    "objectives": "Capacitar o aluno a gerenciar projetos de software. Capacitar o aluno a gerenciar todo o ciclo de desenvolvimento de software. Capacitor o aluno a determinar prazos, fazer estimativas de custos, trabalhos e recursos humanos em projeto de software.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Gerência de Projetos de Software"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.055",
+    "name": "Gestão Ambiental",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Clima, geologia, mineração, dados ambientais, solos, recursos hídricos, meio físico, recuperação de áreas degradadas; geociências aplicadas aos EIA e RIMA; NBR, e ISO aplicadas ao meio ambiente, Sistema de Gestão Ambiental (SGA); PDCA, Diagrama Causa-Efeito e Plano de Ação aplicado nas empresas.",
+    "objectives": " 39     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br Proporcional ao aluno conhecimento de ferramentas de gestão e sua aplicação na condução ambiental de organizações.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Gestão Ambiental"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "gestão"
+    ]
+  },
+  {
+    "id": "OBBGSIN.054",
+    "name": "Gestão da Inovação",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Conceitos e tipos de inovação. Criatividade. Processo de Gestão da Inovação. A inovação como fator de competitividade. Abordagem Estratégica da Inovação. Avaliando o desempenho da Gestão da Inovação.",
+    "objectives": "Proporcionar aos acadêmicos uma visão sistêmica da gestão da inovação como processo, integrado e alinhado aos objetivos estratégicos da organização.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Gestão da Inovação"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "gestão"
+    ]
+  },
+  {
+    "id": "OBBGSIN.094",
+    "name": "Gestão de Recursos Humanos",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Evolução histórica da Administração de Recursos Humanos. Planejamento de RH.  Recrutamento e Seleção de Pessoal. Treinamento e desenvolvimento. Avaliação de desempenho. Gestão da Remuneração.",
+    "objectives": "Fornecer base para que o graduando compreenda os múltiplos papeis de um gerente de pessoas, propiciando a reflexão sobre os processos de Gestão em Recursos Humanos.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Gestão de Recursos Humanos"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "gestão"
+    ]
+  },
+  {
+    "id": "OBBGSIN.059",
+    "name": "Gestão do Conhecimento",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "A Gestão do Conhecimento no contexto de globalização da economia e de competitividade empresarial. Fases da Gestão do Conhecimento. A aprendizagem organizacional como fator de obtenção de vantagens competitivas. A gestão por competências como recurso competitivo e estratégico nas organizações. A espiral de Conhecimento. Modelos de diagnóstico e gestão do conhecimento.",
+    "objectives": "Desenvolver uma perspectiva crítica frente a importância da Gestão do Conhecimento para melhoria do desempenho organizacional. Capacitar os alunos na Gestão do Conhecimento para melhor entender e enfrentar o ambiente de instabilidade e baixa previsibilidade dos cenários organizacionais.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Gestão do Conhecimento"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "gestão"
+    ]
+  },
+  {
+    "id": "OBBGSIN.006",
+    "name": "Inglês Instrumental II",
+    "semester": "Optativa",
+    "total_hours": 32,
+    "theory_hours": 32,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Estratégias para produção de textos em língua inglesa. Noções fundamentais da estrutura da língua escrita. Aquisição de vocabulário. Textos científicos.",
+    "objectives": "Preparar o estudante para produzir textos, principalmente textos técnicos e científicos na língua inglesa. Expandir o vocabulário do aluno na língua inglesa.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Inglês Instrumental II"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.083",
+    "name": "Inglês para Negócios I",
+    "semester": "Optativa",
+    "total_hours": 32,
+    "theory_hours": 32,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Apresentar-se. Descrever seu ambiente de trabalho, sua função. Pedir e dar informações. Falar ao telefone e fazer anotações. Escrever e-mails formais apropriadamente. Discutir tecnologia. Comunicar-se em uma viagem internacional. Comunicar-se em um restaurante. Falar sobre o passado e faça previsões sobre o futuro. Falar sobre consequências e resultados. Fazer comparações.",
+    "objectives": "Oferecer ao aluno um curso de língua inglesa prático e comunicativo, voltado às necessidades do mundo dos negócios, que o permita comunicar efetivamente tanto no ambiente de trabalho quanto fora dele, bem como em ambientes sociais diversos.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Inglês para Negócios I"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.084",
+    "name": "Inglês para Negócios II",
+    "semester": "Optativa",
+    "total_hours": 32,
+    "theory_hours": 32,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Apresentar-se. Descrever seu ambiente de trabalho, sua função. Pedir e dar informações. Falar ao telefone e fazer anotações. Escrever e-mails formais apropriadamente. Discutir tecnologia. Comunicar-se em uma viagem internacional. Comunicar-se em um restaurante. Falar sobre o passado e faça previsões sobre o futuro. Falar sobre consequências e resultados. Fazer comparações.",
+    "objectives": "Oferecer ao aluno um curso de língua inglesa prático e comunicativo, voltado às necessidades do mundo dos negócios, que o permita se comunicar efetivamente tanto no ambiente de trabalho quanto fora dele, bem como em ambientes sociais diversos.  44     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Inglês para Negócios II"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.075",
+    "name": "Inteligência Competitiva",
+    "semester": "Optativa",
+    "total_hours": 32,
+    "theory_hours": 32,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "O processo de inteligência: funcionamento e benefícios; fatores comportamentais, culturais e estruturais; localização adequada das unidades de inteligência; qualificações e treinamento para a inteligência; principais técnicas e modelos analíticos; recursos de informação para a inteligência; contribuições da gestão do conhecimento para as funções de inteligência; aspectos legais e éticos da geração e disseminação dos produtos de inteligência; contra-inteligência.",
+    "objectives": "Apontar os principais elementos que integram o ciclo de inteligência competitiva, demonstrando a sua importância para o sucesso do processo estratégico das organizações que enfrentam ambientes caracterizados por uma intensa e dinâmica competição.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Inteligência Competitiva"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.104",
+    "name": "Libras",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Conceito de Libras, Fundamentos históricos da educação de surdos. Legislação específica. Aspectos Linguísticos da Libras.",
+    "objectives": "Compreender os principais aspectos da Língua Brasileira de Sinais – Libras, língua oficial da comunidade surda brasileira, contribuindo para a inclusão educacional dos alunos surdos. Utilizar a Língua Brasileira de Sinais (Libras) em contextos escolares e não escolares; reconhecer a importância, utilização e organização gramatical da Libras nos processos educacionais dos surdos; compreender os fundamentos da educação de surdos; estabelecer a comparação entre Libras e Língua Portuguesa, buscando semelhanças e diferenças; utilizar metodologias de ensino destinadas à educação de alunos surdos, tendo a Libras como elemento de comunicação, ensino e aprendizagem; conceito de Libras, Fundamentos históricos da educação de surdos. Legislação específica; aspectos linguísticos da Libras.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Libras"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.028",
+    "name": "Linguagens Formais e Autômatos",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 34,
+    "practice_hours": 30,
+    "nature": "Optativa",
+    "description": "Conceitos básicos de linguagens formais; autômatos finitos e expressões regulares; linguagens regulares; autômatos de pilha; gramáticas livres de contexto; linguagens livres de contexto, sensíveis ao contexto e irrestritas; máquinas de Turing; linguagens recursivamente enumeráveis e recursivas; Tese de Church-Turing; hierarquia das classes de linguagem; computabilidade e decidibilidade; noções de compiladores.",
+    "objectives": "Introduzir os fundamentos teóricos das linguagens formais. Compreender os autômatos, expressões regulares, gramáticas e respectivas linguagens reconhecidas. Compreender as máquinas de Turing e a sua relação com algoritmos e computadores. Compreender a complexidade computacional inerente ao reconhecimento das diferentes classes de linguagens, bem como sua classificação hierárquica. Compreender a classificação de soluções quanto à computabilidade e à decidibilidade. Mostrar a aplicação dos formalismos apresentados no desenvolvimento de compiladores.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Linguagens Formais e Autômatos"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.050",
+    "name": "Logística Reversa",
+    "semester": "Optativa",
+    "total_hours": 32,
+    "theory_hours": 32,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Conceito, importância, estrutura. Sustentabilidade Ambiental e Logística Reversa. Produção Limpa. Reciclagem e Logística Reversa. Canais de Distribuição Reversos. Logística Reversa e gestão integrada de resíduos. Serviços de Coleta e Transporte de resíduos.",
+    "objectives": "Compreender os diversos aspectos estratégicos e operacionais envolvidos nas cadeias reversas de retorno de produtos ainda não consumidos (pós-venda) e de produtos usados (pós-consumo).",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Logística Reversa"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.068",
+    "name": "Mineração de Dados",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Regras de Associação. Técnicas de Otimização do Método Apriori - Constraint Data Mining. Mineração de Dados Temporais - Regras Temporais Cíclicas. Mineração de Sequências - Algoritmo GSP. Mineração de Sequências - Algoritmo PrefixSpan. Análise de Performance: GSP, PrefixSpan. Aplicações em Web Mining. Generalização da Técnica de Mineração \"Levelwise (Apriori)\"- Mineração de Episódios. Classificação - Tipos de Classificadores (Lazy/Eager) - Critérios de Avaliação -  Método da Árvore de Decisão. Método KNN - Técnicas de Amostragem -  48     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br Curvas ROC. Classificadores: baseado em Redes Neurais - Backpropagation, Bayesiano. Predição - Regressão Linear - Modelos de Preferências - CP-Nets. Fórmulas de Preferências Condicionais. Rankeamento de Objetos -Rankeamento de Labels. Método de Mineração de Preferências a partir de Amostras Superiores e Inferiores. Método de Mineração de Preferências Condicionais - Regras de Preferências Contextuais. Introdução à Agrupamento de Dados (Clusterização) - Métodos de Clusterização por Particionamento (K-Means, PAM, CLARA). Método de Clusterização Hierárquico Algoritmo CURE. Algoritmo de Clusterização baseado em densidade - DBSCAN. Avaliação de Clusters.",
+    "objectives": "Compreender as principais técnicas de mineração de dados e quando aplica-las. Estudar algoritmos específicos para mineração de dados por padrões de associação, mineração na internet, mineração de redes sociais.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Mineração de Dados"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.008",
+    "name": "Português Instrumental II",
+    "semester": "Optativa",
+    "total_hours": 32,
+    "theory_hours": 32,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Tipos e Gêneros Textuais. Leitura e produção de textos técnicos e acadêmico-científicos.",
+    "objectives": "Aprimorar os potenciais cognitivo, crítico e colaborativo dos alunos, através do desenvolvimento das habilidades de leitura e produção de textos e também da utilização de feedback como estratégia de revisão e reescrita dos textos produzidos; Reconhecer e utilizar estratégias de leitura na compreensão e na produção de textos, produtiva e autonomamente; Compreender e produzir textos técnicos e acadêmico-científicos de acordo com a situação comunicativa; Desenvolver as habilidades para a produção de gêneros textuais da esfera acadêmica por meio do contato efetivo com os gêneros mais frequentemente requisitados em contexto universitário, quer seja para graduandos ou pós-graduandos, tais como: fichamento, resenha e comunicação oral; Contribuir para o desenvolvimento da escrita e da comunicação acadêmica, por meio da aprendizagem do processo de redação de textos científicos, envolvendo: reflexão sobre o contexto no qual o texto será produzido, processo de sumarização, inserção de subjetividade do autor e inserção de vozes dos autores lidos.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Português Instrumental II"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.095",
+    "name": "Processamento de Imagens",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Fundamentos de cor; Representação de imagens digitais; Transformações geométricas em imagens; Filtragem no domínio espacial; Filtragem no domínio da frequência; Restauração e reconstrução de imagens; Processamento morfológico de imagens; Segmentação de imagens; Compressão de imagens; Softwares/bibliotecas de processamento de imagens; Aplicações de processamento de imagens em sistemas.",
+    "objectives": "A disciplina deve capacitar o aluno para compreender os conceitos, características e técnicas de relacionadas ao processamento de imagens digitais, com o objetivo de desenvolver sistemas que apliquem tais conceitos como sistemas de visão computacional, realidade virtual e aumentada.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Processamento de Imagens"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.073",
+    "name": "Qualidade de Vida no Trabalho",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Abordagens da qualidade de vida no trabalho (QVT), Trabalho e Qualidade de Vida; A gestão da qualidade total e os recursos humanos; Valorização da atividade laboral na sociedade; Modelos clássicos de QVT; Programa de QVT e saúde do trabalhador; Ergonomia no trabalho.",
+    "objectives": "Conceituar e propiciar visão geral e sistêmica relacionada à de qualidade de vida e qualidade de vida no trabalho, relacionando-as ao contexto da administração, especificamente à gestão de pessoas.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Qualidade de Vida no Trabalho"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.074",
+    "name": "Sistemas de Garantia de Qualidade",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": " 52     MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS CAMPUS OURO BRANCO Av. Afonso Sardinha, nº 90, Bairro Pioneiros, CEP: 36.420-000, Ouro Branco - Minas Gerais (31) 3938-1200 – gabinete.ourobranco@ifmg.edu.br Sensibilização e conceituação da qualidade; planejamento estratégico e a gestão da qualidade; gerenciamento de processos; ferramentas do controle da qualidade, sistemas de garantia da qualidade; fundamentos da estatística; análise do sistema de medição; gráficos de controle de variáveis e de atributos; controle estatístico do processo.",
+    "objectives": "Compreender e aprender sobre implementação e condução de sistema de qualidade em organizações.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Sistemas de Garantia de Qualidade"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.027",
+    "name": "Teoria dos Grafos",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Conceitos básicos da Teoria de Grafos: grafos e dígrafos; passeios e distâncias; caminhos e ciclos; Modelos de Aplicação. Representação de grafos: grafos isomorfos; subgrafos; representação de grafos por matrizes e listas de adjacência. Árvores: busca em largura e profundidade; árvore geradora; algoritmos de Prim e Kruskal. Caminhos e conectividade: caminho mínimo; algoritmo de Djikstra; conectividade em grafos; grafos bipartidos; grafos Eulerianos e Hamiltonianos. Planaridade em grafos. Coloração de Grafos: conceito e aplicações de coloração de um grafo; número cromático de um grafo; teoremas das quatro cores. Problemas clássicos: Árvores de Steiner; Caixeiro- Viajante.",
+    "objectives": "Introduzir conceitos básicos da Teoria dos Grafos. Apresentar problemas que podem ser representados por grafos. Apresentar algoritmos importantes para a solução de problemas mais conhecidos.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Teoria dos Grafos"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.063",
+    "name": "Tópicos Avançados em Banco de Dados",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Conceitos avançados das linguagens de definição e manipulação dos dados; banco de dados orientado a objetos; banco de dados objeto-relacional; bancos de dados distribuídos; bancos de dados cliente/servidor; transações; controle de concorrência; álgebra relacional; otimização de consultas; data warehouse e conceitos avançados de banco de dados.",
+    "objectives": "Introduzir conceitos, metodologias e tecnologias avançadas de banco de dados. Conhecer aspectos avançados das linguagens de definição e manipulação dos dados; conhecer as principais tecnologias utilizadas em banco de dados; conhecer e saber modelar e desenvolver aplicações avançadas baseadas em banco de dados e introduzir noções de armazém de dados.",
+    "type": "mixed",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Tópicos Avançados em Banco de Dados"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.078",
+    "name": "Tópicos Avançados em Engenharia de Software",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Aspectos econômicos da engenharia de software; caracterização de defeitos em software; medidas em engenharia de software: conceituação, pontos alvos do programa de medição, seleção de medição, medição de software, métricas, técnicas de análise; modelos de medida de software; projeto de desenvolvimento de software: métodos, métricas e técnicas para o planejamento e gerenciamento; histórico e conceitos de qualidade de software: medida do valor da qualidade; norma NBR/ISO -9126; classificação dos sistemas intensivos em software e suas necessidades de qualidade; modelos de melhoria da qualidade dos produtos e processos de software; métricas de análise de qualidade de software. Ênfase em exemplos de softwares educacionais para estudos práticos.",
+    "objectives": "Propiciar ao aluno conhecer técnicas e metodologias avançadas da engenharia de software com ênfase em métricas e qualidade de softwares educacionais. Propiciar ao aluno conhecer os aspectos econômicos envolvidos nos produtos de software; conhecer os princípios dos fundamentos teóricos e práticos das medidas em engenharia de software e a utilizar tais medidas para a melhoria dos sistemas de software; conhecer métodos e técnicas para o planejamento e gerenciamento de projetos de desenvolvimento de softwares em seus vários aspectos; conhecer os princípios da qualidade de software e avaliar as necessidades de qualidade de sistemas de software; conhecer as estratégias e modelos de melhoria da qualidade dos produtos e processos de software.",
+    "type": "mixed",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Tópicos Avançados em Engenharia de Software"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.096",
+    "name": "Tópicos Avançados em Inteligência Artificial",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Desenvolvimento de um laboratório introdutório sobre o uso de arquiteturas cognitivas aplicadas ao controle de criaturas artificiais.  Nesta disciplina será desenvolvido experimentos na linguagem Java, utilizando algumas das mais populares arquiteturas cognitivas, tipo SOAR, Clarion e LIDA.  Pequenos experimentos serão desenvolvidos para ilustrar o funcionamento destas arquiteturas para a construção de mentes artificiais para o controle de agentes inteligentes.",
+    "objectives": "Capacitar o aluno sobre as aplicações e uso de arquiteturas cognitivas no controle de criaturas artificiais. Introduzir conceitos pertinentes da área de ciências cognitivas. Mostrar como a inteligência artificial se beneficia dos correlatos da Ciência Cognitiva. Utilizar computacionalmente arquiteturas cognitivas.",
+    "type": "mixed",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Tópicos Avançados em Inteligência Artificial"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.067",
+    "name": "Tópicos Avançados em Tecnologias de Educação à Distância",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Moodle. Cenário nacional e mundial da educação a distância e e-learning. Plataformas de educação a distância. Fóruns. Hipertexto, hipermídia e multimídia. Formas de ensino, aprendizagem e avaliação na educação a distância. Instalação de infraestrutura para educação a distância.",
+    "objectives": "Compreender as plataformas de educação a distância, conceitos de WEB, internet, rede e estratégias de enfrentamento de problemas educacionais, como inclusão pelo ensino a distância. Estudar fóruns, plataformas gratuitas como o Moodle, instalação de plataformas de aprendizagem e e-learnnig.",
+    "type": "theoretical",
+    "difficulty": 4,
+    "skills": [
+      "Habilidade geral em Tópicos Avançados em Tecnologias de Educação à Distância"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.097",
+    "name": "Tópicos em Desenvolvimento de Jogos Digitais",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Fundamentos de desenvolvimento de jogos digitais. Elementos de Jogos Digitais. Motores de Jogos. Game Loop.  Programação da animação. Tratamento de colisões. Programação da simulação física. Dinâmica de Jogos. Técnicas de Inteligência Artificial para Jogos. Aplicações de Jogos digitais.",
+    "objectives": "Capacitar os estudantes a projetar e desenvolver Jogos Digitais. Capacitar os alunos a entender os principais conceitos e técnicas computacionais envolvidos na concepção de Jogos Digitais.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Tópicos em Desenvolvimento de Jogos Digitais"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "programação"
+    ]
+  },
+  {
+    "id": "OBBGSIN.064",
+    "name": "Tópicos Especiais em Algoritmos",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 64,
+    "practice_hours": 0,
+    "nature": "Optativa",
+    "description": "Estratégias especiais de projeto de Algoritmo; Conceitos avançados de projeto de algoritmos aplicados em diferentes domínios de problemas.",
+    "objectives": "Aprimorar a capacidade do aluno para projetar algoritmos avançados para diferentes domínios de problemas. Capacitar o aluno descobrir a melhor estratégia para solucionar um problema específico. Capacitar o aluno a propor diferentes soluções e analisar alternativas para problemas relacionados a diferentes áreas da computação. Praticar a implementação e testes de variados algoritmos avançados.",
+    "type": "theoretical",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Tópicos Especiais em Algoritmos"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.098",
+    "name": "Tópicos Especiais em Automação",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Eletrostática. Eletrodinâmica. Eletromagnetismo. Grandezas Elétricas. Circuitos elétricos em corrente contínua. Circuitos elétricos em corrente alternada. Transformadores. Noções de Comandos Elétricos. Noções de Acionamentos de Cargas Industriais. Introdução aos Controladores Lógicos Programáveis (CLP’s). Noções sobre a Supervisão e Automação de Processos.",
+    "objectives": "Prover o estudante com os conceitos básicos da Automação Industrial, capacitando-o para a correlacionar e aplicar esses conceitos na área dos Sistemas de Informação. Prover o estudante com conhecimentos sobre a estrutura da matéria e as principais grandezas elétricas. Capacitar o aluno na análise de circuitos em corrente contínua e corrente alternada. Capacitar o aluno para compreender os princípios relacionados com o acionamento de cargas industriais. Introduzir a programação dos CLP’s. Apresentar noções sobre a Supervisão e Automação de Processos. Fornecer subsídios para aplicação dos conceitos da área dos Sistemas de Informação na Automação Industrial.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Tópicos Especiais em Automação"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.065",
+    "name": "Tópicos Especiais em Desenvolvimento de Software",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Conceitos avançados, metodologias e técnicas em diferentes temas relacionados ao Desenvolvimento de Software.",
+    "objectives": "Apresentar novas metodologias ou paradigmas de Desenvolvimento de Software. Praticar técnicas para análise e/ou desenvolvimento de sistemas de informação. Aperfeiçoar conhecimentos em Engenharia de Software. Apresentar novas metodologias ou paradigmas de Desenvolvimento de Software. Praticar técnicas para análise ou desenvolvimento de sistemas de informação. Aperfeiçoar conhecimentos em Engenharia de Software.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Tópicos Especiais em Desenvolvimento de Software"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.099",
+    "name": "Tópicos Especiais em Robótica",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Definição e aplicações da Robótica. Noções de mecânica, eletricidade e eletrônica relacionadas com a Robótica. Sensores e atuadores para robôs. Criação e desenvolvimento de programas de controle para robôs. Aplicações dos Robôs e da Robótica.",
+    "objectives": "Prover o estudante com os conceitos básicos da Robótica, capacitando-o para projetar e programar robôs e sistemas robóticos elementares. Dar entendimento ao aluno da robótica como um campo multidisciplinar. Prover o estudante com conhecimentos sobre a arquitetura e os componentes básicos dos robôs. Capacitar o aluno na programação de robôs. Fornecer subsídios para o projeto de softwares em Robótica. Capacitar o aluno a utilizar tecnologias relacionadas à Robótica.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Tópicos Especiais em Robótica"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  },
+  {
+    "id": "OBBGSIN.066",
+    "name": "Tópicos Especiais em Sistemas de Informação",
+    "semester": "Optativa",
+    "total_hours": 64,
+    "theory_hours": 32,
+    "practice_hours": 32,
+    "nature": "Optativa",
+    "description": "Conceitos avançados, metodologias e técnicas em diferentes temas relacionados a Sistemas Operacionais, Arquitetura e Organização de Computadores e Redes de Computadores.",
+    "objectives": "Apurar o conhecimento dos estudantes em conceitos avançados sobre Sistemas Computacionais e Redes de Computadores. Capacitar o estudante a compreender o funcionamento de sistemas computacionais específicos. Preparar estudantes para entender diferentes conceitos relacionados e redes de computadores. Aprimorar o conhecimento dos alunos em tópicos relacionados a Infraestrutura de Tecnologia da Informação.",
+    "type": "mixed",
+    "difficulty": 3,
+    "skills": [
+      "Habilidade geral em Tópicos Especiais em Sistemas de Informação"
+    ],
+    "tools": [
+      "Ferramentas da disciplina"
+    ],
+    "activities": [
+      "Aulas teóricas e práticas conforme ementa"
+    ],
+    "dependencies": [],
+    "tags": [
+      "geral"
+    ]
+  }
+]
