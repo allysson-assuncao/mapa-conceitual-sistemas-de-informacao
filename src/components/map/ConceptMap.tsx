@@ -5,10 +5,10 @@ import {
   type Node, type Edge, useNodesState, useEdgesState,
 } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
-import { CareerAreaNode } from './nodes/CareerAreaNode';
-import { DisciplineNode } from './nodes/DisciplineNode';
-import { ConnectionEdge } from './edges/ConnectionEdge';
-import { MapControls } from './MapControls';
+import { CareerAreaNode } from '@/components/map/nodes/CareerAreaNode';
+import { DisciplineNode } from '@/components/map/nodes/DisciplineNode';
+import { ConnectionEdge } from '@/components/map/edges/ConnectionEdge';
+import { MapControls } from '@/components/map/MapControls';
 import { useMapStore } from '@/store/map-store';
 import type { Discipline, CareerArea, Connection } from '@/lib/types';
 import { computeLayout } from '@/lib/layout-engine';

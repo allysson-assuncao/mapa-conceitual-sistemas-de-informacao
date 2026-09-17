@@ -1,8 +1,8 @@
 'use client';
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
 import { useMapStore } from '@/store/map-store';
-import { DisciplineDetail } from './DisciplineDetail';
-import { CareerAreaDetail } from './CareerAreaDetail';
+import { DisciplineDetail } from '@/components/panel/DisciplineDetail';
+import { CareerAreaDetail } from '@/components/panel/CareerAreaDetail';
 
 export function DetailPanel() {
   const { selectedNode, clearSelection } = useMapStore();
