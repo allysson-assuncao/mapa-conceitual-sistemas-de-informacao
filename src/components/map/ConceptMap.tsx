@@ -1,5 +1,5 @@
 'use client';
-import { useCallback, useMemo } from 'react';
+import { useCallback, useMemo, useEffect } from 'react';
 import {
   ReactFlow, Background, Controls, MiniMap,
   type Node, type Edge, useNodesState, useEdgesState,
@@ -27,7 +27,7 @@ interface Props {
 }
 
 export function ConceptMap({ disciplines, careerAreas, connections }: Props) {
-  const { showOptional, highlightedCareer, clearSelection } = useMapStore();
+  const { showOptional, highlightedCareer, hoveredNodeId, setHoveredNodeId, clearSelection } = useMapStore();
 
   const visibleDisciplines = useMemo(
     () => (showOptional ? disciplines : disciplines.filter((d) => d.nature === 'Obrigatória')),
@@ -39,27 +39,45 @@ export function ConceptMap({ disciplines, careerAreas, connections }: Props) {
     [careerAreas, visibleDisciplines, connections]
   );
 
-  const initialEdges = useMemo<Edge[]>(() => {
+  const computedEdges = useMemo<Edge[]>(() => {
     const visibleIds = new Set(visibleDisciplines.map((d) => d.id));
     return connections
       .filter((c) => visibleIds.has(c.target))
       .map((c) => {
         const career = careerAreas.find((ca) => ca.id === c.source);
-        const isActive = highlightedCareer === null || highlightedCareer === c.source;
+        
+        let isActive = true;
+        let isHovered = false;
+
+        if (hoveredNodeId) {
+          isHovered = c.source === hoveredNodeId || c.target === hoveredNodeId;
+          isActive = isHovered;
+        } else if (highlightedCareer !== null) {
+          isActive = highlightedCareer === c.source;
+        }
+
         return {
           id: c.id,
           source: c.source,
           target: c.target,
           type: 'connection',
           data: { strength: c.strength, color: career?.color ?? '#6366f1', active: isActive },
-          animated: c.strength === 3,
-          style: { opacity: isActive ? 1 : 0.08 },
+          animated: c.strength === 3 || isHovered,
+          style: { 
+            opacity: isActive ? (hoveredNodeId ? 1 : 0.6) : 0.05,
+            strokeWidth: isHovered ? 3 : 1
+          },
+          zIndex: isHovered ? 10 : 0
         };
       });
-  }, [connections, visibleDisciplines, careerAreas, highlightedCareer]);
+  }, [connections, visibleDisciplines, careerAreas, highlightedCareer, hoveredNodeId]);
 
-  const [nodes, , onNodesChange] = useNodesState(initialNodes);
-  const [edges, , onEdgesChange] = useEdgesState(initialEdges);
+  const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
+  const [edges, setEdges, onEdgesChange] = useEdgesState(computedEdges);
+
+  useEffect(() => {
+    setEdges(computedEdges);
+  }, [computedEdges, setEdges]);
 
   return (
     <div className="w-full h-screen relative">
@@ -76,6 +94,8 @@ export function ConceptMap({ disciplines, careerAreas, connections }: Props) {
         minZoom={0.15}
         maxZoom={2}
         onPaneClick={clearSelection}
+        onNodeMouseEnter={(_, node) => setHoveredNodeId(node.id)}
+        onNodeMouseLeave={() => setHoveredNodeId(null)}
         proOptions={{ hideAttribution: false }}
       >
         <Background gap={24} size={1} color="#ffffff08" />

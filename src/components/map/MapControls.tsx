@@ -6,7 +6,7 @@ export function MapControls() {
   const { showOptional, toggleShowOptional } = useMapStore();
 
   return (
-    <div className="absolute top-4 left-4 z-10 flex gap-2">
+    <div className="absolute top-6 left-6 z-10 flex gap-2">
       <button
         onClick={toggleShowOptional}
         className={`px-4 py-2 rounded-lg text-sm font-medium transition-all border ${
