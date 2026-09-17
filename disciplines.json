@@ -166,7 +166,7 @@
   },
   {
     "id": "OBBGSIN.024",
-    "name": "Arquitetura e Organização de",
+    "name": "Arquitetura e Organização de Computadores",
     "semester": 3,
     "total_hours": 64,
     "theory_hours": 44,
@@ -694,7 +694,7 @@
   },
   {
     "id": "OBBGSIN.078",
-    "name": "Tópicos Avançados em Engenharia de",
+    "name": "Tópicos Avançados em Engenharia de Software",
     "semester": "Optativa",
     "total_hours": 64,
     "theory_hours": 32,
@@ -705,7 +705,7 @@
   },
   {
     "id": "OBBGSIN.096",
-    "name": "Tópicos Avançados em Inteligência",
+    "name": "Tópicos Avançados em Inteligência Artificial",
     "semester": "Optativa",
     "total_hours": 64,
     "theory_hours": 32,
@@ -727,7 +727,7 @@
   },
   {
     "id": "OBBGSIN.097",
-    "name": "Tópicos em Desenvolvimento de",
+    "name": "Tópicos em Desenvolvimento de Jogos Digitais",
     "semester": "Optativa",
     "total_hours": 64,
     "theory_hours": 32,
@@ -782,7 +782,7 @@
   },
   {
     "id": "OBBGSIN.066",
-    "name": "Tópicos Especiais em Sistemas de",
+    "name": "Tópicos Especiais em Sistemas de Informação",
     "semester": "Optativa",
     "total_hours": 64,
     "theory_hours": 32,
