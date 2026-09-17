@@ -6,10 +6,10 @@ import type { CareerAreaNodeData } from '@/lib/types';
 import * as Icons from 'lucide-react';
 
 export const CareerAreaNode = memo(({ data }: NodeProps) => {
-  const nodeData = data as CareerAreaNodeData;
+  const nodeData = data as unknown as CareerAreaNodeData;
   const { careerArea } = nodeData;
   const { setSelectedNode, setHighlightedCareer } = useMapStore();
-  const IconComponent = (Icons as Record<string, React.ElementType>)[careerArea.icon] ?? Icons.Briefcase;
+  const IconComponent = (Icons as any)[careerArea.icon] ?? Icons.Briefcase;
 
   return (
     <div

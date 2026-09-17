@@ -8,7 +8,7 @@ const difficultyColor = (d: number) =>
   ['#22c55e', '#84cc16', '#f59e0b', '#f97316', '#ef4444'][d - 1];
 
 export const DisciplineNode = memo(({ data }: NodeProps) => {
-  const nodeData = data as DisciplineNodeData;
+  const nodeData = data as unknown as DisciplineNodeData;
   const { discipline, isOptional } = nodeData;
   const { setSelectedNode, highlightedCareer } = useMapStore();
 
