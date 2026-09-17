@@ -72,6 +72,7 @@ export function ConceptMap({ disciplines, careerAreas, connections }: Props) {
         nodeTypes={nodeTypes}
         edgeTypes={edgeTypes}
         fitView
+        fitViewOptions={{ padding: 0.2 }}
         minZoom={0.15}
         maxZoom={2}
         onPaneClick={clearSelection}

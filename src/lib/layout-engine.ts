@@ -1,9 +1,9 @@
 import type { CareerArea, Discipline, Connection } from './types';
 import type { Node } from '@xyflow/react';
 
-const CANVAS_WIDTH = 3600;
+const CANVAS_WIDTH = 5400;
 const CAREER_Y = 80;
-const DISCIPLINE_ROW_HEIGHT = 180;
+const DISCIPLINE_ROW_HEIGHT = 280;
 const CAREER_SPACING = CANVAS_WIDTH / 9; // 8 careers + padding
 
 export function computeLayout(
@@ -50,7 +50,7 @@ export function computeLayout(
       id: disc.id,
       type: 'discipline',
       position: {
-        x: baseX + (col - 0.5) * 230,
+        x: baseX + (col - 0.5) * 300,
         y: CAREER_Y + 200 + row * DISCIPLINE_ROW_HEIGHT,
       },
       data: { discipline: disc, isOptional: disc.nature === 'Optativa', isHighlighted: false },
