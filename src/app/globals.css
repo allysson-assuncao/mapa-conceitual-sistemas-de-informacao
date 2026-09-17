@@ -128,3 +128,125 @@
     @apply font-sans;
   }
 }
+@import '@xyflow/react/dist/style.css';
+
+:root {
+  --background: #020617;  /* slate-950 */
+}
+
+body {
+  background-color: var(--background);
+  color: #f1f5f9;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Career Area Node */
+.career-area-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 20px;
+  min-width: 160px;
+  background: rgba(15, 23, 42, 0.92);
+  border: 2px solid;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  backdrop-filter: blur(8px);
+}
+.career-area-node:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+.career-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.career-label {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: #e2e8f0;
+  max-width: 140px;
+}
+
+/* Discipline Node */
+.discipline-node {
+  padding: 10px 14px;
+  min-width: 180px;
+  max-width: 210px;
+  background: rgba(30, 41, 59, 0.9);
+  border: 1.5px solid #334155;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  backdrop-filter: blur(4px);
+}
+.discipline-node:hover {
+  border-color: #6366f1;
+  box-shadow: 0 0 16px #6366f144;
+  transform: scale(1.02);
+}
+.discipline-node--optional {
+  border-style: dashed;
+  border-color: #475569;
+  opacity: 0.85;
+}
+.discipline-node--dimmed {
+  opacity: 0.18;
+  pointer-events: none;
+}
+.discipline-semester {
+  font-size: 10px;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 2px;
+}
+.discipline-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #e2e8f0;
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+.discipline-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.discipline-difficulty {
+  font-size: 9px;
+  padding: 1px 5px;
+  border-radius: 99px;
+  color: white;
+  letter-spacing: 1px;
+}
+.discipline-hours {
+  font-size: 10px;
+  color: #94a3b8;
+}
+.discipline-type {
+  font-size: 10px;
+  color: #64748b;
+  text-transform: capitalize;
+}
+
+/* React Flow overrides */
+.react-flow__background {
+  background-color: #020617 !important;
+}
+.react-flow__controls {
+  background: rgba(15, 23, 42, 0.9) !important;
+  border: 1px solid #334155 !important;
+  border-radius: 12px !important;
+}
+.react-flow__minimap {
+  border-radius: 12px !important;
+  border: 1px solid #334155 !important;
+}
