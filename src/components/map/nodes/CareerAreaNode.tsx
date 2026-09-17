@@ -11,10 +11,17 @@ export const CareerAreaNode = memo(({ data }: NodeProps) => {
   const { setSelectedNode, setHighlightedCareer } = useMapStore();
   const IconComponent = (Icons as any)[careerArea.icon] ?? Icons.Briefcase;
 
+  const isHighlighted = (data as any).isHighlighted;
+  const isDimmed = (data as any).isDimmed;
+
   return (
     <div
-      className="career-area-node"
-      style={{ borderColor: careerArea.color, boxShadow: `0 0 24px ${careerArea.color}44` }}
+      className={`career-area-node ${isDimmed ? 'opacity-20 pointer-events-none' : ''} ${isHighlighted ? 'scale-105 z-10' : ''}`}
+      style={{ 
+        borderColor: careerArea.color, 
+        boxShadow: isHighlighted ? `0 0 32px ${careerArea.color}88` : `0 0 24px ${careerArea.color}44`,
+        transform: isHighlighted ? 'translateY(-4px) scale(1.05)' : undefined,
+      }}
       onClick={() => {
         setSelectedNode({ type: 'career', data: careerArea });
         setHighlightedCareer(careerArea.id);

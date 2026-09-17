@@ -72,12 +72,37 @@ export function ConceptMap({ disciplines, careerAreas, connections }: Props) {
       });
   }, [connections, visibleDisciplines, careerAreas, highlightedCareer, hoveredNodeId]);
 
-  const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
+  const computedNodes = useMemo<Node[]>(() => {
+    const activeIds = new Set<string>();
+    if (hoveredNodeId) {
+      activeIds.add(hoveredNodeId);
+      connections.forEach((c) => {
+        if (c.source === hoveredNodeId) activeIds.add(c.target);
+        if (c.target === hoveredNodeId) activeIds.add(c.source);
+      });
+    }
+
+    return initialNodes.map((node) => {
+      const isHighlighted = hoveredNodeId ? activeIds.has(node.id) : false;
+      const isDimmed = hoveredNodeId ? !activeIds.has(node.id) : (highlightedCareer ? (node.type === 'careerArea' && node.id !== highlightedCareer) : false);
+      return {
+        ...node,
+        data: {
+          ...node.data,
+          isHighlighted,
+          isDimmed,
+        },
+      };
+    });
+  }, [initialNodes, connections, hoveredNodeId, highlightedCareer]);
+
+  const [nodes, setNodes, onNodesChange] = useNodesState(computedNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(computedEdges);
 
   useEffect(() => {
+    setNodes(computedNodes);
     setEdges(computedEdges);
-  }, [computedEdges, setEdges]);
+  }, [computedNodes, computedEdges, setNodes, setEdges]);
 
   return (
     <div className="w-full h-screen relative">

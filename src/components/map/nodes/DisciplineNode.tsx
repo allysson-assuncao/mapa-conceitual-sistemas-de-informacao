@@ -10,18 +10,18 @@ const difficultyColor = (d: number) =>
 export const DisciplineNode = memo(({ data }: NodeProps) => {
   const nodeData = data as unknown as DisciplineNodeData;
   const { discipline, isOptional } = nodeData;
-  const { setSelectedNode, highlightedCareer } = useMapStore();
-
-  const isHighlighted =
-    highlightedCareer === null ||
-    // discipline is highlighted if it belongs to the active career
-    true; // real logic uses connection lookup — see ConceptMap.tsx
+  const { setSelectedNode } = useMapStore();
+  
+  const isHighlighted = (data as any).isHighlighted;
+  const isDimmed = (data as any).isDimmed;
 
   return (
     <div
       className={`discipline-node ${
         isOptional ? 'discipline-node--optional' : ''
-      } ${isHighlighted ? '' : 'discipline-node--dimmed'}`}
+      } ${isDimmed ? 'discipline-node--dimmed' : ''} ${
+        isHighlighted ? 'border-indigo-500 shadow-[0_0_20px_rgba(99,102,241,0.6)] scale-105 z-10' : ''
+      }`}
       onClick={() => setSelectedNode({ type: 'discipline', data: discipline })}
     >
       <Handle type="target" position={Position.Top} />
