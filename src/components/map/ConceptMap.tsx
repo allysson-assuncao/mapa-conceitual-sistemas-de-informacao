@@ -55,11 +55,8 @@ export function ConceptMap({ disciplines, careerAreas, connections }: Props) {
 
   // Sync structural changes (adding/removing nodes)
   useEffect(() => {
-    setNodes((nds) => {
-      const needsFullReset = nds.length !== initialNodes.length || !nds.every((n, i) => n.id === initialNodes[i].id);
-      if (needsFullReset) return initialNodes;
-      return nds;
-    });
+    // initialNodes is strongly memoized and only changes when layout/data changes
+    setNodes(initialNodes);
   }, [initialNodes, setNodes]);
 
   // Sync data updates (highlight/dim) on nodes without overwriting position/measured data
