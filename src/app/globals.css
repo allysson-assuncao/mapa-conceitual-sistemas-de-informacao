@@ -260,3 +260,8 @@ body {
   fill: var(--muted) !important;
   opacity: 0.8 !important;
 }
+
+@keyframes edgePulse {
+  0%, 100% { opacity: 0.10; }
+  50%       { opacity: 0.25; }
+}
