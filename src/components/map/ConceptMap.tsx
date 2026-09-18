@@ -1,5 +1,5 @@
 'use client';
-import { useCallback, useMemo, useEffect } from 'react';
+import { useCallback, useMemo, useEffect, useRef } from 'react';
 import {
   ReactFlow, Background, Controls, MiniMap,
   type Node, type Edge, useNodesState, useEdgesState,
@@ -27,6 +27,11 @@ interface Props {
 }
 
 export function ConceptMap({ disciplines, careerAreas, connections }: Props) {
+  const initialized = useRef(false);
+  if (!initialized.current) {
+    useMapStore.setState({ disciplines, careerAreas, connections });
+    initialized.current = true;
+  }
   const { showOptional, highlightedCareer, hoveredNodeId, setHoveredNodeId, clearSelection } = useMapStore();
 
   const visibleDisciplines = useMemo(

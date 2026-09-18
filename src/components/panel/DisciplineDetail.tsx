@@ -1,7 +1,9 @@
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import type { Discipline } from '@/lib/types';
-import { Clock, Star, BookOpen, CheckCircle, Wrench, GitBranch } from 'lucide-react';
+import { useMemo } from 'react';
+import { useMapStore } from '@/store/map-store';
+import { Clock, Star, BookOpen, CheckCircle, Wrench, GitBranch, Briefcase } from 'lucide-react';
 
 const typeLabel: Record<string, string> = {
   theoretical: 'Teórica',
@@ -10,6 +12,20 @@ const typeLabel: Record<string, string> = {
 };
 
 export function DisciplineDetail({ discipline: d }: { discipline: Discipline }) {
+  const { connections, careerAreas, setSelectedNode } = useMapStore();
+
+  const connectedCareers = useMemo(() =>
+    connections
+      .filter((c) => c.target === d.id)
+      .map((c) => ({
+        career: careerAreas.find((ca) => ca.id === c.source)!,
+        strength: c.strength,
+      }))
+      .filter((item) => item.career !== undefined)
+      .sort((a, b) => b.strength - a.strength),
+    [connections, d.id, careerAreas]
+  );
+
   return (
     <div className="mt-6 space-y-6">
       <div className="flex gap-2 flex-wrap">
@@ -90,6 +106,40 @@ export function DisciplineDetail({ discipline: d }: { discipline: Discipline }) 
               <Badge key={dep} className="text-xs bg-indigo-900/60 hover:bg-indigo-900/80 text-indigo-200 border border-indigo-700/50">
                 {dep}
               </Badge>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {connectedCareers.length > 0 && (
+        <section>
+          <h3 className="font-semibold text-slate-200 text-md mb-3 flex items-center gap-2">
+            <Briefcase className="w-4 h-4 text-violet-400" />
+            Áreas de Carreira Relacionadas
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {connectedCareers.map(({ career, strength }) => (
+              <button
+                key={career.id}
+                onClick={() => setSelectedNode({ type: 'career', data: career })}
+                className="group flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium
+                           border transition-all hover:scale-105"
+                style={{
+                  borderColor: career.color + '60',
+                  backgroundColor: career.color + '18',
+                  color: career.color,
+                }}
+              >
+                <span
+                  className="w-2 h-2 rounded-full"
+                  style={{ backgroundColor: career.color }}
+                  title={`Força ${strength}`}
+                />
+                {career.name}
+                <span className="opacity-50 text-[10px]">
+                  {'●'.repeat(strength)}{'○'.repeat(3 - strength)}
+                </span>
+              </button>
             ))}
           </div>
         </section>

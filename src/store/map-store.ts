@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import type { Discipline, CareerArea } from '@/lib/types';
+import type { Discipline, CareerArea, Connection } from '@/lib/types';
 
 type SelectedNode =
   | { type: 'discipline'; data: Discipline }
@@ -7,6 +7,9 @@ type SelectedNode =
   | null;
 
 interface MapStore {
+  disciplines: Discipline[];
+  careerAreas: CareerArea[];
+  connections: Connection[];
   selectedNode: SelectedNode;
   showOptional: boolean;
   highlightedCareer: string | null;    // careerArea.id
@@ -19,6 +22,9 @@ interface MapStore {
 }
 
 export const useMapStore = create<MapStore>((set) => ({
+  disciplines: [],
+  careerAreas: [],
+  connections: [],
   selectedNode: null,
   showOptional: true,
   highlightedCareer: null,
