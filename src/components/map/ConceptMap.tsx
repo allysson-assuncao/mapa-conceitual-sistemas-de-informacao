@@ -61,7 +61,7 @@ export function ConceptMap({ disciplines, careerAreas, connections }: Props) {
           source: c.source,
           target: c.target,
           type: 'connection',
-          data: { strength: c.strength, color: career?.color ?? '#6366f1', active: isActive },
+          data: { strength: c.strength, color: career?.color ?? '#6366f1', active: isActive, description: c.description },
           animated: c.strength === 3 || isHovered,
           style: { 
             opacity: isActive ? (hoveredNodeId ? 1 : 0.6) : 0.05,
@@ -104,8 +104,10 @@ export function ConceptMap({ disciplines, careerAreas, connections }: Props) {
     setEdges(computedEdges);
   }, [computedNodes, computedEdges, setNodes, setEdges]);
 
+  const layoutKey = showOptional ? 'with-optional' : 'required-only';
+
   return (
-    <div className="w-full h-screen relative">
+    <div className="w-full h-screen relative" key={layoutKey}>
       <MapControls />
       <ReactFlow
         nodes={nodes}
