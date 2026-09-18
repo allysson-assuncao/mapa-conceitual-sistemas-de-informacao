@@ -961,10 +961,16 @@
     "type": "theoretical",
     "difficulty": 4,
     "skills": [
-      "Habilidade geral em Empreendedorismo"
+      "Business model canvas",
+      "pitch",
+      "MVP design",
+      "startup ecosystem"
     ],
     "tools": [
-      "Ferramentas da disciplina"
+      "Notion",
+      "Canva",
+      "Miro",
+      "Lean Canvas tools"
     ],
     "activities": [
       "Aulas teóricas e práticas conforme ementa"
@@ -1091,10 +1097,16 @@
     "type": "mixed",
     "difficulty": 3,
     "skills": [
-      "Habilidade geral em Banco de Dados II"
+      "NoSQL",
+      "indexação avançada",
+      "query optimization",
+      "data warehouse"
     ],
     "tools": [
-      "Ferramentas da disciplina"
+      "MongoDB",
+      "Redis",
+      "Apache Cassandra",
+      "Elasticsearch"
     ],
     "activities": [
       "Aulas teóricas e práticas conforme ementa"
@@ -1169,10 +1181,16 @@
     "type": "mixed",
     "difficulty": 3,
     "skills": [
-      "Habilidade geral em Computação Gráfica"
+      "3D modeling",
+      "shader programming",
+      "rasterization",
+      "texture mapping"
     ],
     "tools": [
-      "Ferramentas da disciplina"
+      "OpenGL",
+      "WebGL",
+      "Blender",
+      "Unity"
     ],
     "activities": [
       "Aulas teóricas e práticas conforme ementa"
@@ -1221,10 +1239,16 @@
     "type": "mixed",
     "difficulty": 3,
     "skills": [
-      "Habilidade geral em Gerência de Projetos de Software"
+      "Agile estimation",
+      "risk management",
+      "sprint planning",
+      "software metrics"
     ],
     "tools": [
-      "Ferramentas da disciplina"
+      "Jira",
+      "GitHub Projects",
+      "MS Project",
+      "Azure DevOps"
     ],
     "activities": [
       "Aulas teóricas e práticas conforme ementa"
@@ -1481,10 +1505,15 @@
     "type": "mixed",
     "difficulty": 3,
     "skills": [
-      "Habilidade geral em Linguagens Formais e Autômatos"
+      "Finite automata",
+      "regular expressions",
+      "context-free grammars",
+      "Turing machines"
     ],
     "tools": [
-      "Ferramentas da disciplina"
+      "JFLAP",
+      "Python (PLY/ANTLR)",
+      "formal proof tools"
     ],
     "activities": [
       "Aulas teóricas e práticas conforme ementa"
@@ -1533,10 +1562,17 @@
     "type": "mixed",
     "difficulty": 3,
     "skills": [
-      "Habilidade geral em Mineração de Dados"
+      "Clustering",
+      "classification",
+      "regression",
+      "association rules"
     ],
     "tools": [
-      "Ferramentas da disciplina"
+      "Python",
+      "scikit-learn",
+      "Weka",
+      "Orange",
+      "Jupyter"
     ],
     "activities": [
       "Aulas teóricas e práticas conforme ementa"
@@ -1585,10 +1621,16 @@
     "type": "mixed",
     "difficulty": 3,
     "skills": [
-      "Habilidade geral em Processamento de Imagens"
+      "Image segmentation",
+      "filtering",
+      "computer vision",
+      "morphological processing"
     ],
     "tools": [
-      "Ferramentas da disciplina"
+      "OpenCV",
+      "Python (PIL/Pillow)",
+      "MATLAB",
+      "TensorFlow"
     ],
     "activities": [
       "Aulas teóricas e práticas conforme ementa"
@@ -1741,10 +1783,14 @@
     "type": "mixed",
     "difficulty": 4,
     "skills": [
-      "Habilidade geral em Tópicos Avançados em Inteligência Artificial"
+      "Cognitive architectures",
+      "intelligent agents",
+      "knowledge representation"
     ],
     "tools": [
-      "Ferramentas da disciplina"
+      "Java (SOAR/Clarion)",
+      "Python",
+      "NetLogo"
     ],
     "activities": [
       "Aulas teóricas e práticas conforme ementa"
@@ -1793,10 +1839,16 @@
     "type": "mixed",
     "difficulty": 3,
     "skills": [
-      "Habilidade geral em Tópicos em Desenvolvimento de Jogos Digitais"
+      "Game loop design",
+      "physics simulation",
+      "collision detection",
+      "AI for games"
     ],
     "tools": [
-      "Ferramentas da disciplina"
+      "Unity",
+      "Unreal Engine",
+      "Godot",
+      "C#"
     ],
     "activities": [
       "Aulas teóricas e práticas conforme ementa"
