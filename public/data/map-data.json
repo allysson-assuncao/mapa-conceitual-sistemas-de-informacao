@@ -1,117 +1,838 @@
 {
   "version": "1.0.0",
   "connections": [
-    { "id": "c001", "source": "career-fullstack", "target": "OBBGSIN.085", "strength": 3, "description": "Base de programação essencial" },
-    { "id": "c002", "source": "career-fullstack", "target": "OBBGSIN.010", "strength": 3, "description": "POO é fundamental para desenvolvimento moderno" },
-    { "id": "c003", "source": "career-fullstack", "target": "OBBGSIN.022", "strength": 3, "description": "Padrões de projeto e GUI avançada" },
-    { "id": "c004", "source": "career-fullstack", "target": "OBBGSIN.016", "strength": 3, "description": "Todo sistema web precisa de banco de dados" },
-    { "id": "c005", "source": "career-fullstack", "target": "OBBGSIN.023", "strength": 3, "description": "Disciplina central de desenvolvimento web" },
-    { "id": "c006", "source": "career-fullstack", "target": "OBBGSIN.017", "strength": 2, "description": "Engenharia de Software I" },
-    { "id": "c007", "source": "career-fullstack", "target": "OBBGSIN.041", "strength": 2, "description": "Engenharia de Software II (APIs REST, DevOps)" },
-    { "id": "c008", "source": "career-fullstack", "target": "OBBGSIN.026", "strength": 2, "description": "UX/UI é essencial no front-end" },
-    { "id": "c009", "source": "career-fullstack", "target": "OBBGSIN.039", "strength": 1, "description": "Apps mobile são parte do ecossistema full-stack" },
-    { "id": "c010", "source": "career-fullstack", "target": "OBBGSIN.103", "strength": 2, "description": "Qualidade e testes de software" },
-
-    { "id": "c011", "source": "career-data-scientist", "target": "OBBGSIN.085", "strength": 2, "description": "Python/programação base para scripts de dados" },
-    { "id": "c012", "source": "career-data-scientist", "target": "OBBGSIN.016", "strength": 3, "description": "SQL e modelagem de dados são centrais" },
-    { "id": "c013", "source": "career-data-scientist", "target": "OBBGSIN.031", "strength": 3, "description": "Estatística é a base da ciência de dados" },
-    { "id": "c014", "source": "career-data-scientist", "target": "OBBGSIN.034", "strength": 3, "description": "Inteligência Artificial e Machine Learning" },
-    { "id": "c015", "source": "career-data-scientist", "target": "OBBGSIN.021", "strength": 2, "description": "Álgebra Linear usada em ML" },
-    { "id": "c016", "source": "career-data-scientist", "target": "OBBGSIN.020", "strength": 2, "description": "Matemática Discreta e teoria de grafos" },
-    { "id": "c017", "source": "career-data-scientist", "target": "OBBGSIN.033", "strength": 2, "description": "Banco de Dados II (avançado)" },
-    { "id": "c018", "source": "career-data-scientist", "target": "OBBGSIN.068", "strength": 3, "description": "Mineração de Dados é disciplina central" },
-    { "id": "c019", "source": "career-data-scientist", "target": "OBBGSIN.036", "strength": 2, "description": "Sistemas de Apoio à Decisão" },
-    { "id": "c020", "source": "career-data-scientist", "target": "OBBGSIN.019", "strength": 1, "description": "Governança e gestão da informação" },
-
-    { "id": "c021", "source": "career-infra", "target": "OBBGSIN.029", "strength": 3, "description": "Redes de Computadores I é central" },
-    { "id": "c022", "source": "career-infra", "target": "OBBGSIN.037", "strength": 3, "description": "Sistemas Distribuídos" },
-    { "id": "c023", "source": "career-infra", "target": "OBBGSIN.030", "strength": 3, "description": "Sistemas Operacionais" },
-    { "id": "c024", "source": "career-infra", "target": "OBBGSIN.024", "strength": 2, "description": "Arquitetura de Computadores" },
-    { "id": "c025", "source": "career-infra", "target": "OBBGSIN.013", "strength": 1, "description": "Sistemas Digitais" },
-    { "id": "c026", "source": "career-infra", "target": "OBBGSIN.041", "strength": 2, "description": "DevOps (ES II)" },
-    { "id": "c027", "source": "career-infra", "target": "OBBGSIN.019", "strength": 2, "description": "Governança de TI" },
-    { "id": "c028", "source": "career-infra", "target": "OBBGSIN.066", "strength": 2, "description": "Tópicos Especiais em Sistemas" },
-
-    { "id": "c029", "source": "career-ai-engineer", "target": "OBBGSIN.085", "strength": 2, "description": "Programação base" },
-    { "id": "c030", "source": "career-ai-engineer", "target": "OBBGSIN.009", "strength": 2, "description": "Estruturas de dados fundamentais" },
-    { "id": "c031", "source": "career-ai-engineer", "target": "OBBGSIN.015", "strength": 2, "description": "Estruturas avançadas (árvores e grafos)" },
-    { "id": "c032", "source": "career-ai-engineer", "target": "OBBGSIN.034", "strength": 3, "description": "Inteligência Artificial" },
-    { "id": "c033", "source": "career-ai-engineer", "target": "OBBGSIN.031", "strength": 3, "description": "Probabilidade e Estatística" },
-    { "id": "c034", "source": "career-ai-engineer", "target": "OBBGSIN.021", "strength": 3, "description": "Álgebra Linear" },
-    { "id": "c035", "source": "career-ai-engineer", "target": "OBBGSIN.020", "strength": 2, "description": "Matemática Discreta" },
-    { "id": "c036", "source": "career-ai-engineer", "target": "OBBGSIN.038", "strength": 2, "description": "Projeto e Análise de Algoritmos" },
-    { "id": "c037", "source": "career-ai-engineer", "target": "OBBGSIN.096", "strength": 2, "description": "Tópicos Avançados em IA" },
-    { "id": "c038", "source": "career-ai-engineer", "target": "OBBGSIN.068", "strength": 2, "description": "Mineração de Dados" },
-    { "id": "c039", "source": "career-ai-engineer", "target": "OBBGSIN.095", "strength": 1, "description": "Processamento de Imagens (visão computacional)" },
-
-    { "id": "c040", "source": "career-it-manager", "target": "OBBGSIN.011", "strength": 3, "description": "Princípios da Administração" },
-    { "id": "c041", "source": "career-it-manager", "target": "OBBGSIN.019", "strength": 3, "description": "Governança e Gestão da Informação" },
-    { "id": "c042", "source": "career-it-manager", "target": "OBBGSIN.036", "strength": 3, "description": "Sistemas de Apoio à Decisão" },
-    { "id": "c043", "source": "career-it-manager", "target": "OBBGSIN.040", "strength": 3, "description": "Gestão de Projetos" },
-    { "id": "c044", "source": "career-it-manager", "target": "OBBGSIN.044", "strength": 2, "description": "Ética e Legislação" },
-    { "id": "c045", "source": "career-it-manager", "target": "OBBGSIN.018", "strength": 2, "description": "Contabilidade" },
-    { "id": "c046", "source": "career-it-manager", "target": "OBBGSIN.049", "strength": 2, "description": "Gerência de Projetos de Software" },
-    { "id": "c047", "source": "career-it-manager", "target": "OBBGSIN.102", "strength": 2, "description": "Empreendedorismo" },
-    { "id": "c048", "source": "career-it-manager", "target": "OBBGSIN.081", "strength": 1, "description": "Consultoria Empresarial" },
-    { "id": "c049", "source": "career-it-manager", "target": "OBBGSIN.059", "strength": 1, "description": "Gestão do Conhecimento" },
-
-    { "id": "c050", "source": "career-mobile", "target": "OBBGSIN.085", "strength": 3, "description": "Programação base" },
-    { "id": "c051", "source": "career-mobile", "target": "OBBGSIN.010", "strength": 3, "description": "POO I" },
-    { "id": "c052", "source": "career-mobile", "target": "OBBGSIN.022", "strength": 3, "description": "POO II (GUI, threads, padrões)" },
-    { "id": "c053", "source": "career-mobile", "target": "OBBGSIN.039", "strength": 3, "description": "Disciplina central de desenvolvimento mobile" },
-    { "id": "c054", "source": "career-mobile", "target": "OBBGSIN.016", "strength": 2, "description": "Persistência de dados" },
-    { "id": "c055", "source": "career-mobile", "target": "OBBGSIN.023", "strength": 2, "description": "Web como complemento mobile" },
-    { "id": "c056", "source": "career-mobile", "target": "OBBGSIN.026", "strength": 2, "description": "UX para mobile" },
-    { "id": "c057", "source": "career-mobile", "target": "OBBGSIN.017", "strength": 1, "description": "Boas práticas de engenharia de software" },
-
-    { "id": "c058", "source": "career-security", "target": "OBBGSIN.029", "strength": 3, "description": "Redes de Computadores I" },
-    { "id": "c059", "source": "career-security", "target": "OBBGSIN.037", "strength": 3, "description": "Segurança em Sistemas Distribuídos" },
-    { "id": "c060", "source": "career-security", "target": "OBBGSIN.030", "strength": 3, "description": "Sistemas Operacionais (controle de acesso)" },
-    { "id": "c061", "source": "career-security", "target": "OBBGSIN.044", "strength": 3, "description": "Ética, Legislação e LGPD" },
-    { "id": "c062", "source": "career-security", "target": "OBBGSIN.019", "strength": 2, "description": "Governança de TIC" },
-    { "id": "c063", "source": "career-security", "target": "OBBGSIN.013", "strength": 1, "description": "Sistemas Digitais" },
-    { "id": "c064", "source": "career-security", "target": "OBBGSIN.028", "strength": 2, "description": "Linguagens Formais (criptografia/autômatos)" },
-    { "id": "c065", "source": "career-security", "target": "OBBGSIN.066", "strength": 2, "description": "Tópicos em Infraestrutura e Segurança" },
-
-    { "id": "c066", "source": "career-game-dev", "target": "OBBGSIN.085", "strength": 3, "description": "Programação base" },
-    { "id": "c067", "source": "career-game-dev", "target": "OBBGSIN.010", "strength": 3, "description": "POO I" },
-    { "id": "c068", "source": "career-game-dev", "target": "OBBGSIN.022", "strength": 2, "description": "POO II e padrões de projeto" },
-    { "id": "c069", "source": "career-game-dev", "target": "OBBGSIN.070", "strength": 3, "description": "Computação Gráfica" },
-    { "id": "c070", "source": "career-game-dev", "target": "OBBGSIN.034", "strength": 2, "description": "IA para comportamento de agentes em jogos" },
-    { "id": "c071", "source": "career-game-dev", "target": "OBBGSIN.021", "strength": 2, "description": "Álgebra Linear para transformações 3D" },
-    { "id": "c072", "source": "career-game-dev", "target": "OBBGSIN.097", "strength": 3, "description": "Tópicos em Desenvolvimento de Jogos" },
-    { "id": "c073", "source": "career-game-dev", "target": "OBBGSIN.095", "strength": 2, "description": "Processamento de Imagens" },
-    { "id": "c074", "source": "career-game-dev", "target": "OBBGSIN.026", "strength": 1, "description": "UX/Design de interação" },
-    { "id": "c075", "source": "career-it-manager", "target": "OBBGSIN.035", "strength": 2, "description": "Finanças essenciais para gestão de orçamento em TI" },
-    { "id": "c076", "source": "career-it-manager", "target": "OBBGSIN.057", "strength": 1, "description": "Avaliação de empresas e ativos de TI" },
-    { "id": "c077", "source": "career-ai-engineer", "target": "OBBGSIN.079", "strength": 2, "description": "Métodos numéricos aplicados à otimização de modelos ML" },
-    { "id": "c078", "source": "career-data-scientist", "target": "OBBGSIN.079", "strength": 2, "description": "Análise numérica para modelagem estatística avançada" },
-    { "id": "c079", "source": "career-it-manager", "target": "OBBGSIN.025", "strength": 2, "description": "Comportamento organizacional para liderança de equipes de TI" },
-    { "id": "c080", "source": "career-it-manager", "target": "OBBGSIN.055", "strength": 1, "description": "Gestão ambiental e Green IT nas organizações" },
-    { "id": "c081", "source": "career-it-manager", "target": "OBBGSIN.054", "strength": 2, "description": "Inovação tecnológica como vantagem competitiva" },
-    { "id": "c082", "source": "career-it-manager", "target": "OBBGSIN.094", "strength": 2, "description": "Gestão de times técnicos e desenvolvimento de pessoas" },
-    { "id": "c083", "source": "career-fullstack", "target": "OBBGSIN.006", "strength": 1, "description": "Leitura de documentação técnica e papers em inglês" },
-    { "id": "c084", "source": "career-data-scientist", "target": "OBBGSIN.006", "strength": 1, "description": "Consumo de literatura científica internacional" },
-    { "id": "c085", "source": "career-ai-engineer", "target": "OBBGSIN.006", "strength": 1, "description": "Leitura de papers de pesquisa em IA" },
-    { "id": "c086", "source": "career-infra", "target": "OBBGSIN.006", "strength": 1, "description": "Documentação técnica de infraestrutura em inglês" },
-    { "id": "c087", "source": "career-security", "target": "OBBGSIN.006", "strength": 1, "description": "CVEs, advisories e relatórios de segurança em inglês" },
-    { "id": "c088", "source": "career-it-manager", "target": "OBBGSIN.083", "strength": 2, "description": "Comunicação com clientes e stakeholders internacionais" },
-    { "id": "c089", "source": "career-fullstack", "target": "OBBGSIN.083", "strength": 1, "description": "Comunicação em equipes internacionais de desenvolvimento" },
-    { "id": "c090", "source": "career-it-manager", "target": "OBBGSIN.084", "strength": 2, "description": "Negociação e apresentação avançada em inglês" },
-    { "id": "c091", "source": "career-fullstack", "target": "OBBGSIN.084", "strength": 1, "description": "Participação em projetos e empresas internacionais" },
-    { "id": "c092", "source": "career-data-scientist", "target": "OBBGSIN.075", "strength": 2, "description": "Inteligência de mercado e análise competitiva com dados" },
-    { "id": "c093", "source": "career-it-manager", "target": "OBBGSIN.075", "strength": 2, "description": "Inteligência estratégica para decisões de TI" },
-    { "id": "c094", "source": "career-it-manager", "target": "OBBGSIN.104", "strength": 1, "description": "Inclusão digital e acessibilidade em sistemas organizacionais" },
-    { "id": "c095", "source": "career-fullstack", "target": "OBBGSIN.104", "strength": 1, "description": "Desenvolvimento de interfaces acessíveis para usuários surdos" },
-    { "id": "c096", "source": "career-mobile", "target": "OBBGSIN.104", "strength": 1, "description": "Acessibilidade em aplicativos mobile para a comunidade surda" },
-    { "id": "c097", "source": "career-it-manager", "target": "OBBGSIN.050", "strength": 1, "description": "Gestão de resíduos eletrônicos e logística reversa em TI" },
-    { "id": "c098", "source": "career-it-manager", "target": "OBBGSIN.008", "strength": 1, "description": "Redação técnica de documentação e relatórios gerenciais" },
-    { "id": "c099", "source": "career-fullstack", "target": "OBBGSIN.008", "strength": 1, "description": "Documentação de APIs e sistemas em português técnico" },
-    { "id": "c100", "source": "career-it-manager", "target": "OBBGSIN.073", "strength": 1, "description": "Bem-estar e ergonomia para equipes de TI" },
-    { "id": "c101", "source": "career-it-manager", "target": "OBBGSIN.074", "strength": 2, "description": "Processos ISO e garantia de qualidade operacional em TI" },
-    { "id": "c102", "source": "career-fullstack", "target": "OBBGSIN.074", "strength": 1, "description": "Processos de QA e certificação de software" },
-    { "id": "c103", "source": "career-it-manager", "target": "OBBGSIN.067", "strength": 1, "description": "Gestão de plataformas de e-learning e treinamento corporativo" },
-    { "id": "c104", "source": "career-ai-engineer", "target": "OBBGSIN.098", "strength": 2, "description": "IA aplicada à automação industrial e sistemas CLP" },
-    { "id": "c105", "source": "career-infra", "target": "OBBGSIN.098", "strength": 2, "description": "DevOps e infraestrutura para sistemas industriais automatizados" }
+    {
+      "id": "c001",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.085",
+      "strength": 3,
+      "description": "Base de programação essencial"
+    },
+    {
+      "id": "c002",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.010",
+      "strength": 3,
+      "description": "POO é fundamental para desenvolvimento moderno"
+    },
+    {
+      "id": "c003",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.022",
+      "strength": 3,
+      "description": "Padrões de projeto e GUI avançada"
+    },
+    {
+      "id": "c004",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.016",
+      "strength": 3,
+      "description": "Todo sistema web precisa de banco de dados"
+    },
+    {
+      "id": "c005",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.023",
+      "strength": 3,
+      "description": "Disciplina central de desenvolvimento web"
+    },
+    {
+      "id": "c006",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.017",
+      "strength": 2,
+      "description": "Engenharia de Software I"
+    },
+    {
+      "id": "c007",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.041",
+      "strength": 2,
+      "description": "Engenharia de Software II (APIs REST, DevOps)"
+    },
+    {
+      "id": "c008",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.026",
+      "strength": 2,
+      "description": "UX/UI é essencial no front-end"
+    },
+    {
+      "id": "c009",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.039",
+      "strength": 1,
+      "description": "Apps mobile são parte do ecossistema full-stack"
+    },
+    {
+      "id": "c010",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.103",
+      "strength": 2,
+      "description": "Qualidade e testes de software"
+    },
+    {
+      "id": "c011",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.085",
+      "strength": 2,
+      "description": "Python/programação base para scripts de dados"
+    },
+    {
+      "id": "c012",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.016",
+      "strength": 3,
+      "description": "SQL e modelagem de dados são centrais"
+    },
+    {
+      "id": "c013",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.031",
+      "strength": 3,
+      "description": "Estatística é a base da ciência de dados"
+    },
+    {
+      "id": "c014",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.034",
+      "strength": 3,
+      "description": "Inteligência Artificial e Machine Learning"
+    },
+    {
+      "id": "c015",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.021",
+      "strength": 2,
+      "description": "Álgebra Linear usada em ML"
+    },
+    {
+      "id": "c016",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.020",
+      "strength": 2,
+      "description": "Matemática Discreta e teoria de grafos"
+    },
+    {
+      "id": "c017",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.033",
+      "strength": 2,
+      "description": "Banco de Dados II (avançado)"
+    },
+    {
+      "id": "c018",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.068",
+      "strength": 3,
+      "description": "Mineração de Dados é disciplina central"
+    },
+    {
+      "id": "c019",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.036",
+      "strength": 2,
+      "description": "Sistemas de Apoio à Decisão"
+    },
+    {
+      "id": "c020",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.019",
+      "strength": 1,
+      "description": "Governança e gestão da informação"
+    },
+    {
+      "id": "c021",
+      "source": "career-infra",
+      "target": "OBBGSIN.029",
+      "strength": 3,
+      "description": "Redes de Computadores I é central"
+    },
+    {
+      "id": "c022",
+      "source": "career-infra",
+      "target": "OBBGSIN.037",
+      "strength": 3,
+      "description": "Sistemas Distribuídos"
+    },
+    {
+      "id": "c023",
+      "source": "career-infra",
+      "target": "OBBGSIN.030",
+      "strength": 3,
+      "description": "Sistemas Operacionais"
+    },
+    {
+      "id": "c024",
+      "source": "career-infra",
+      "target": "OBBGSIN.024",
+      "strength": 2,
+      "description": "Arquitetura de Computadores"
+    },
+    {
+      "id": "c025",
+      "source": "career-infra",
+      "target": "OBBGSIN.013",
+      "strength": 1,
+      "description": "Sistemas Digitais"
+    },
+    {
+      "id": "c026",
+      "source": "career-infra",
+      "target": "OBBGSIN.041",
+      "strength": 2,
+      "description": "DevOps (ES II)"
+    },
+    {
+      "id": "c027",
+      "source": "career-infra",
+      "target": "OBBGSIN.019",
+      "strength": 2,
+      "description": "Governança de TI"
+    },
+    {
+      "id": "c028",
+      "source": "career-infra",
+      "target": "OBBGSIN.066",
+      "strength": 2,
+      "description": "Tópicos Especiais em Sistemas"
+    },
+    {
+      "id": "c029",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.085",
+      "strength": 2,
+      "description": "Programação base"
+    },
+    {
+      "id": "c030",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.009",
+      "strength": 2,
+      "description": "Estruturas de dados fundamentais"
+    },
+    {
+      "id": "c031",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.015",
+      "strength": 2,
+      "description": "Estruturas avançadas (árvores e grafos)"
+    },
+    {
+      "id": "c032",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.034",
+      "strength": 3,
+      "description": "Inteligência Artificial"
+    },
+    {
+      "id": "c033",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.031",
+      "strength": 3,
+      "description": "Probabilidade e Estatística"
+    },
+    {
+      "id": "c034",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.021",
+      "strength": 3,
+      "description": "Álgebra Linear"
+    },
+    {
+      "id": "c035",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.020",
+      "strength": 2,
+      "description": "Matemática Discreta"
+    },
+    {
+      "id": "c036",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.038",
+      "strength": 2,
+      "description": "Projeto e Análise de Algoritmos"
+    },
+    {
+      "id": "c037",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.096",
+      "strength": 2,
+      "description": "Tópicos Avançados em IA"
+    },
+    {
+      "id": "c038",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.068",
+      "strength": 2,
+      "description": "Mineração de Dados"
+    },
+    {
+      "id": "c039",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.095",
+      "strength": 1,
+      "description": "Processamento de Imagens (visão computacional)"
+    },
+    {
+      "id": "c040",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.011",
+      "strength": 3,
+      "description": "Princípios da Administração"
+    },
+    {
+      "id": "c041",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.019",
+      "strength": 3,
+      "description": "Governança e Gestão da Informação"
+    },
+    {
+      "id": "c042",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.036",
+      "strength": 3,
+      "description": "Sistemas de Apoio à Decisão"
+    },
+    {
+      "id": "c043",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.040",
+      "strength": 3,
+      "description": "Gestão de Projetos"
+    },
+    {
+      "id": "c044",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.044",
+      "strength": 2,
+      "description": "Ética e Legislação"
+    },
+    {
+      "id": "c045",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.018",
+      "strength": 2,
+      "description": "Contabilidade"
+    },
+    {
+      "id": "c046",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.049",
+      "strength": 2,
+      "description": "Gerência de Projetos de Software"
+    },
+    {
+      "id": "c047",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.102",
+      "strength": 2,
+      "description": "Empreendedorismo"
+    },
+    {
+      "id": "c048",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.081",
+      "strength": 1,
+      "description": "Consultoria Empresarial"
+    },
+    {
+      "id": "c049",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.059",
+      "strength": 1,
+      "description": "Gestão do Conhecimento"
+    },
+    {
+      "id": "c050",
+      "source": "career-mobile",
+      "target": "OBBGSIN.085",
+      "strength": 3,
+      "description": "Programação base"
+    },
+    {
+      "id": "c051",
+      "source": "career-mobile",
+      "target": "OBBGSIN.010",
+      "strength": 3,
+      "description": "POO I"
+    },
+    {
+      "id": "c052",
+      "source": "career-mobile",
+      "target": "OBBGSIN.022",
+      "strength": 3,
+      "description": "POO II (GUI, threads, padrões)"
+    },
+    {
+      "id": "c053",
+      "source": "career-mobile",
+      "target": "OBBGSIN.039",
+      "strength": 3,
+      "description": "Disciplina central de desenvolvimento mobile"
+    },
+    {
+      "id": "c054",
+      "source": "career-mobile",
+      "target": "OBBGSIN.016",
+      "strength": 2,
+      "description": "Persistência de dados"
+    },
+    {
+      "id": "c055",
+      "source": "career-mobile",
+      "target": "OBBGSIN.023",
+      "strength": 2,
+      "description": "Web como complemento mobile"
+    },
+    {
+      "id": "c056",
+      "source": "career-mobile",
+      "target": "OBBGSIN.026",
+      "strength": 2,
+      "description": "UX para mobile"
+    },
+    {
+      "id": "c057",
+      "source": "career-mobile",
+      "target": "OBBGSIN.017",
+      "strength": 1,
+      "description": "Boas práticas de engenharia de software"
+    },
+    {
+      "id": "c058",
+      "source": "career-security",
+      "target": "OBBGSIN.029",
+      "strength": 3,
+      "description": "Redes de Computadores I"
+    },
+    {
+      "id": "c059",
+      "source": "career-security",
+      "target": "OBBGSIN.037",
+      "strength": 3,
+      "description": "Segurança em Sistemas Distribuídos"
+    },
+    {
+      "id": "c060",
+      "source": "career-security",
+      "target": "OBBGSIN.030",
+      "strength": 3,
+      "description": "Sistemas Operacionais (controle de acesso)"
+    },
+    {
+      "id": "c061",
+      "source": "career-security",
+      "target": "OBBGSIN.044",
+      "strength": 3,
+      "description": "Ética, Legislação e LGPD"
+    },
+    {
+      "id": "c062",
+      "source": "career-security",
+      "target": "OBBGSIN.019",
+      "strength": 2,
+      "description": "Governança de TIC"
+    },
+    {
+      "id": "c063",
+      "source": "career-security",
+      "target": "OBBGSIN.013",
+      "strength": 1,
+      "description": "Sistemas Digitais"
+    },
+    {
+      "id": "c064",
+      "source": "career-security",
+      "target": "OBBGSIN.028",
+      "strength": 2,
+      "description": "Linguagens Formais (criptografia/autômatos)"
+    },
+    {
+      "id": "c065",
+      "source": "career-security",
+      "target": "OBBGSIN.066",
+      "strength": 2,
+      "description": "Tópicos em Infraestrutura e Segurança"
+    },
+    {
+      "id": "c066",
+      "source": "career-game-dev",
+      "target": "OBBGSIN.085",
+      "strength": 3,
+      "description": "Programação base"
+    },
+    {
+      "id": "c067",
+      "source": "career-game-dev",
+      "target": "OBBGSIN.010",
+      "strength": 3,
+      "description": "POO I"
+    },
+    {
+      "id": "c068",
+      "source": "career-game-dev",
+      "target": "OBBGSIN.022",
+      "strength": 2,
+      "description": "POO II e padrões de projeto"
+    },
+    {
+      "id": "c069",
+      "source": "career-game-dev",
+      "target": "OBBGSIN.070",
+      "strength": 3,
+      "description": "Computação Gráfica"
+    },
+    {
+      "id": "c070",
+      "source": "career-game-dev",
+      "target": "OBBGSIN.034",
+      "strength": 2,
+      "description": "IA para comportamento de agentes em jogos"
+    },
+    {
+      "id": "c071",
+      "source": "career-game-dev",
+      "target": "OBBGSIN.021",
+      "strength": 2,
+      "description": "Álgebra Linear para transformações 3D"
+    },
+    {
+      "id": "c072",
+      "source": "career-game-dev",
+      "target": "OBBGSIN.097",
+      "strength": 3,
+      "description": "Tópicos em Desenvolvimento de Jogos"
+    },
+    {
+      "id": "c073",
+      "source": "career-game-dev",
+      "target": "OBBGSIN.095",
+      "strength": 2,
+      "description": "Processamento de Imagens"
+    },
+    {
+      "id": "c074",
+      "source": "career-game-dev",
+      "target": "OBBGSIN.026",
+      "strength": 1,
+      "description": "UX/Design de interação"
+    },
+    {
+      "id": "c075",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.035",
+      "strength": 2,
+      "description": "Finanças essenciais para gestão de orçamento em TI"
+    },
+    {
+      "id": "c076",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.057",
+      "strength": 1,
+      "description": "Avaliação de empresas e ativos de TI"
+    },
+    {
+      "id": "c077",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.079",
+      "strength": 2,
+      "description": "Métodos numéricos aplicados à otimização de modelos ML"
+    },
+    {
+      "id": "c078",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.079",
+      "strength": 2,
+      "description": "Análise numérica para modelagem estatística avançada"
+    },
+    {
+      "id": "c079",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.025",
+      "strength": 2,
+      "description": "Comportamento organizacional para liderança de equipes de TI"
+    },
+    {
+      "id": "c080",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.055",
+      "strength": 1,
+      "description": "Gestão ambiental e Green IT nas organizações"
+    },
+    {
+      "id": "c081",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.054",
+      "strength": 2,
+      "description": "Inovação tecnológica como vantagem competitiva"
+    },
+    {
+      "id": "c082",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.094",
+      "strength": 2,
+      "description": "Gestão de times técnicos e desenvolvimento de pessoas"
+    },
+    {
+      "id": "c083",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.006",
+      "strength": 1,
+      "description": "Leitura de documentação técnica e papers em inglês"
+    },
+    {
+      "id": "c084",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.006",
+      "strength": 1,
+      "description": "Consumo de literatura científica internacional"
+    },
+    {
+      "id": "c085",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.006",
+      "strength": 1,
+      "description": "Leitura de papers de pesquisa em IA"
+    },
+    {
+      "id": "c086",
+      "source": "career-infra",
+      "target": "OBBGSIN.006",
+      "strength": 1,
+      "description": "Documentação técnica de infraestrutura em inglês"
+    },
+    {
+      "id": "c087",
+      "source": "career-security",
+      "target": "OBBGSIN.006",
+      "strength": 1,
+      "description": "CVEs, advisories e relatórios de segurança em inglês"
+    },
+    {
+      "id": "c088",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.083",
+      "strength": 2,
+      "description": "Comunicação com clientes e stakeholders internacionais"
+    },
+    {
+      "id": "c089",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.083",
+      "strength": 1,
+      "description": "Comunicação em equipes internacionais de desenvolvimento"
+    },
+    {
+      "id": "c090",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.084",
+      "strength": 2,
+      "description": "Negociação e apresentação avançada em inglês"
+    },
+    {
+      "id": "c091",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.084",
+      "strength": 1,
+      "description": "Participação em projetos e empresas internacionais"
+    },
+    {
+      "id": "c092",
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.075",
+      "strength": 2,
+      "description": "Inteligência de mercado e análise competitiva com dados"
+    },
+    {
+      "id": "c093",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.075",
+      "strength": 2,
+      "description": "Inteligência estratégica para decisões de TI"
+    },
+    {
+      "id": "c094",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.104",
+      "strength": 1,
+      "description": "Inclusão digital e acessibilidade em sistemas organizacionais"
+    },
+    {
+      "id": "c095",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.104",
+      "strength": 1,
+      "description": "Desenvolvimento de interfaces acessíveis para usuários surdos"
+    },
+    {
+      "id": "c096",
+      "source": "career-mobile",
+      "target": "OBBGSIN.104",
+      "strength": 1,
+      "description": "Acessibilidade em aplicativos mobile para a comunidade surda"
+    },
+    {
+      "id": "c097",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.050",
+      "strength": 1,
+      "description": "Gestão de resíduos eletrônicos e logística reversa em TI"
+    },
+    {
+      "id": "c098",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.008",
+      "strength": 1,
+      "description": "Redação técnica de documentação e relatórios gerenciais"
+    },
+    {
+      "id": "c099",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.008",
+      "strength": 1,
+      "description": "Documentação de APIs e sistemas em português técnico"
+    },
+    {
+      "id": "c100",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.073",
+      "strength": 1,
+      "description": "Bem-estar e ergonomia para equipes de TI"
+    },
+    {
+      "id": "c101",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.074",
+      "strength": 2,
+      "description": "Processos ISO e garantia de qualidade operacional em TI"
+    },
+    {
+      "id": "c102",
+      "source": "career-fullstack",
+      "target": "OBBGSIN.074",
+      "strength": 1,
+      "description": "Processos de QA e certificação de software"
+    },
+    {
+      "id": "c103",
+      "source": "career-it-manager",
+      "target": "OBBGSIN.067",
+      "strength": 1,
+      "description": "Gestão de plataformas de e-learning e treinamento corporativo"
+    },
+    {
+      "id": "c104",
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.098",
+      "strength": 2,
+      "description": "IA aplicada à automação industrial e sistemas CLP"
+    },
+    {
+      "id": "c105",
+      "source": "career-infra",
+      "target": "OBBGSIN.098",
+      "strength": 2,
+      "description": "DevOps e infraestrutura para sistemas industriais automatizados"
+    },
+    {
+      "source": "career-it-manager",
+      "target": "OBBGSIN.001",
+      "strength": 1,
+      "description": "Fundamentos para compreensão sistêmica",
+      "id": "c106"
+    },
+    {
+      "source": "career-it-manager",
+      "target": "OBBGSIN.007",
+      "strength": 1,
+      "description": "Comunicação e expressão corporativa",
+      "id": "c107"
+    },
+    {
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.101",
+      "strength": 1,
+      "description": "Base matemática para análise de dados",
+      "id": "c108"
+    },
+    {
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.012",
+      "strength": 2,
+      "description": "Modelagem matemática avançada",
+      "id": "c109"
+    },
+    {
+      "source": "career-fullstack",
+      "target": "OBBGSIN.003",
+      "strength": 1,
+      "description": "Leitura de documentação técnica em inglês",
+      "id": "c110"
+    },
+    {
+      "source": "career-it-manager",
+      "target": "OBBGSIN.002",
+      "strength": 1,
+      "description": "Metodologia para pesquisa e inovação",
+      "id": "c111"
+    },
+    {
+      "source": "career-it-manager",
+      "target": "OBBGSIN.091",
+      "strength": 1,
+      "description": "Planejamento de projeto de conclusão",
+      "id": "c112"
+    },
+    {
+      "source": "career-it-manager",
+      "target": "OBBGSIN.092",
+      "strength": 1,
+      "description": "Execução de projeto de conclusão",
+      "id": "c113"
+    },
+    {
+      "source": "career-data-scientist",
+      "target": "OBBGSIN.027",
+      "strength": 1,
+      "description": "Análise de redes e caminhos",
+      "id": "c114"
+    },
+    {
+      "source": "career-fullstack",
+      "target": "OBBGSIN.063",
+      "strength": 1,
+      "description": "Otimização e arquitetura de banco de dados",
+      "id": "c115"
+    },
+    {
+      "source": "career-fullstack",
+      "target": "OBBGSIN.078",
+      "strength": 1,
+      "description": "Arquiteturas e padrões de projeto avançados",
+      "id": "c116"
+    },
+    {
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.064",
+      "strength": 1,
+      "description": "Estruturas de dados avançadas para IA",
+      "id": "c117"
+    },
+    {
+      "source": "career-fullstack",
+      "target": "OBBGSIN.065",
+      "strength": 1,
+      "description": "Práticas modernas de engenharia de software",
+      "id": "c118"
+    },
+    {
+      "source": "career-ai-engineer",
+      "target": "OBBGSIN.099",
+      "strength": 1,
+      "description": "Visão computacional e controle robótico",
+      "id": "c119"
+    }
   ]
 }

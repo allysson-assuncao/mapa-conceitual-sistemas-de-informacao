@@ -7,7 +7,28 @@
     "icon": "Code2",
     "marketDemand": "high",
     "salaryRange": "R$ 5.500 – R$ 22.000",
-    "disciplineIds": ["OBBGSIN.085", "OBBGSIN.010", "OBBGSIN.022", "OBBGSIN.016", "OBBGSIN.023", "OBBGSIN.017", "OBBGSIN.041", "OBBGSIN.026", "OBBGSIN.039", "OBBGSIN.103", "OBBGSIN.006", "OBBGSIN.083", "OBBGSIN.084", "OBBGSIN.008", "OBBGSIN.074", "OBBGSIN.104"]
+    "disciplineIds": [
+      "OBBGSIN.085",
+      "OBBGSIN.010",
+      "OBBGSIN.022",
+      "OBBGSIN.016",
+      "OBBGSIN.023",
+      "OBBGSIN.017",
+      "OBBGSIN.041",
+      "OBBGSIN.026",
+      "OBBGSIN.039",
+      "OBBGSIN.103",
+      "OBBGSIN.006",
+      "OBBGSIN.083",
+      "OBBGSIN.084",
+      "OBBGSIN.008",
+      "OBBGSIN.074",
+      "OBBGSIN.104",
+      "OBBGSIN.003",
+      "OBBGSIN.063",
+      "OBBGSIN.078",
+      "OBBGSIN.065"
+    ]
   },
   {
     "id": "career-data-scientist",
@@ -17,7 +38,24 @@
     "icon": "BarChart3",
     "marketDemand": "high",
     "salaryRange": "R$ 7.000 – R$ 28.000",
-    "disciplineIds": ["OBBGSIN.085", "OBBGSIN.016", "OBBGSIN.031", "OBBGSIN.034", "OBBGSIN.021", "OBBGSIN.020", "OBBGSIN.033", "OBBGSIN.068", "OBBGSIN.036", "OBBGSIN.019", "OBBGSIN.079", "OBBGSIN.006", "OBBGSIN.075"]
+    "disciplineIds": [
+      "OBBGSIN.085",
+      "OBBGSIN.016",
+      "OBBGSIN.031",
+      "OBBGSIN.034",
+      "OBBGSIN.021",
+      "OBBGSIN.020",
+      "OBBGSIN.033",
+      "OBBGSIN.068",
+      "OBBGSIN.036",
+      "OBBGSIN.019",
+      "OBBGSIN.079",
+      "OBBGSIN.006",
+      "OBBGSIN.075",
+      "OBBGSIN.101",
+      "OBBGSIN.012",
+      "OBBGSIN.027"
+    ]
   },
   {
     "id": "career-infra",
@@ -27,7 +65,18 @@
     "icon": "Server",
     "marketDemand": "high",
     "salaryRange": "R$ 6.000 – R$ 20.000",
-    "disciplineIds": ["OBBGSIN.029", "OBBGSIN.037", "OBBGSIN.030", "OBBGSIN.024", "OBBGSIN.013", "OBBGSIN.041", "OBBGSIN.019", "OBBGSIN.066", "OBBGSIN.006", "OBBGSIN.098"]
+    "disciplineIds": [
+      "OBBGSIN.029",
+      "OBBGSIN.037",
+      "OBBGSIN.030",
+      "OBBGSIN.024",
+      "OBBGSIN.013",
+      "OBBGSIN.041",
+      "OBBGSIN.019",
+      "OBBGSIN.066",
+      "OBBGSIN.006",
+      "OBBGSIN.098"
+    ]
   },
   {
     "id": "career-ai-engineer",
@@ -37,7 +86,24 @@
     "icon": "Brain",
     "marketDemand": "high",
     "salaryRange": "R$ 10.000 – R$ 35.000",
-    "disciplineIds": ["OBBGSIN.085", "OBBGSIN.009", "OBBGSIN.015", "OBBGSIN.034", "OBBGSIN.031", "OBBGSIN.021", "OBBGSIN.020", "OBBGSIN.038", "OBBGSIN.096", "OBBGSIN.068", "OBBGSIN.095", "OBBGSIN.079", "OBBGSIN.006", "OBBGSIN.098"]
+    "disciplineIds": [
+      "OBBGSIN.085",
+      "OBBGSIN.009",
+      "OBBGSIN.015",
+      "OBBGSIN.034",
+      "OBBGSIN.031",
+      "OBBGSIN.021",
+      "OBBGSIN.020",
+      "OBBGSIN.038",
+      "OBBGSIN.096",
+      "OBBGSIN.068",
+      "OBBGSIN.095",
+      "OBBGSIN.079",
+      "OBBGSIN.006",
+      "OBBGSIN.098",
+      "OBBGSIN.064",
+      "OBBGSIN.099"
+    ]
   },
   {
     "id": "career-it-manager",
@@ -47,7 +113,37 @@
     "icon": "Briefcase",
     "marketDemand": "medium",
     "salaryRange": "R$ 6.000 – R$ 18.000",
-    "disciplineIds": ["OBBGSIN.011", "OBBGSIN.019", "OBBGSIN.036", "OBBGSIN.040", "OBBGSIN.044", "OBBGSIN.018", "OBBGSIN.049", "OBBGSIN.102", "OBBGSIN.081", "OBBGSIN.059", "OBBGSIN.035", "OBBGSIN.057", "OBBGSIN.025", "OBBGSIN.055", "OBBGSIN.054", "OBBGSIN.094", "OBBGSIN.083", "OBBGSIN.084", "OBBGSIN.075", "OBBGSIN.050", "OBBGSIN.073", "OBBGSIN.074", "OBBGSIN.067", "OBBGSIN.104"]
+    "disciplineIds": [
+      "OBBGSIN.011",
+      "OBBGSIN.019",
+      "OBBGSIN.036",
+      "OBBGSIN.040",
+      "OBBGSIN.044",
+      "OBBGSIN.018",
+      "OBBGSIN.049",
+      "OBBGSIN.102",
+      "OBBGSIN.081",
+      "OBBGSIN.059",
+      "OBBGSIN.035",
+      "OBBGSIN.057",
+      "OBBGSIN.025",
+      "OBBGSIN.055",
+      "OBBGSIN.054",
+      "OBBGSIN.094",
+      "OBBGSIN.083",
+      "OBBGSIN.084",
+      "OBBGSIN.075",
+      "OBBGSIN.050",
+      "OBBGSIN.073",
+      "OBBGSIN.074",
+      "OBBGSIN.067",
+      "OBBGSIN.104",
+      "OBBGSIN.001",
+      "OBBGSIN.007",
+      "OBBGSIN.002",
+      "OBBGSIN.091",
+      "OBBGSIN.092"
+    ]
   },
   {
     "id": "career-mobile",
@@ -57,7 +153,17 @@
     "icon": "Smartphone",
     "marketDemand": "high",
     "salaryRange": "R$ 5.000 – R$ 18.000",
-    "disciplineIds": ["OBBGSIN.085", "OBBGSIN.010", "OBBGSIN.022", "OBBGSIN.039", "OBBGSIN.016", "OBBGSIN.023", "OBBGSIN.026", "OBBGSIN.017", "OBBGSIN.104"]
+    "disciplineIds": [
+      "OBBGSIN.085",
+      "OBBGSIN.010",
+      "OBBGSIN.022",
+      "OBBGSIN.039",
+      "OBBGSIN.016",
+      "OBBGSIN.023",
+      "OBBGSIN.026",
+      "OBBGSIN.017",
+      "OBBGSIN.104"
+    ]
   },
   {
     "id": "career-security",
@@ -67,7 +173,17 @@
     "icon": "Shield",
     "marketDemand": "high",
     "salaryRange": "R$ 7.500 – R$ 25.000",
-    "disciplineIds": ["OBBGSIN.029", "OBBGSIN.037", "OBBGSIN.030", "OBBGSIN.044", "OBBGSIN.019", "OBBGSIN.013", "OBBGSIN.028", "OBBGSIN.066", "OBBGSIN.006"]
+    "disciplineIds": [
+      "OBBGSIN.029",
+      "OBBGSIN.037",
+      "OBBGSIN.030",
+      "OBBGSIN.044",
+      "OBBGSIN.019",
+      "OBBGSIN.013",
+      "OBBGSIN.028",
+      "OBBGSIN.066",
+      "OBBGSIN.006"
+    ]
   },
   {
     "id": "career-game-dev",
@@ -77,6 +193,16 @@
     "icon": "Gamepad2",
     "marketDemand": "medium",
     "salaryRange": "R$ 3.500 – R$ 14.000",
-    "disciplineIds": ["OBBGSIN.085", "OBBGSIN.010", "OBBGSIN.022", "OBBGSIN.070", "OBBGSIN.034", "OBBGSIN.021", "OBBGSIN.097", "OBBGSIN.095", "OBBGSIN.026"]
+    "disciplineIds": [
+      "OBBGSIN.085",
+      "OBBGSIN.010",
+      "OBBGSIN.022",
+      "OBBGSIN.070",
+      "OBBGSIN.034",
+      "OBBGSIN.021",
+      "OBBGSIN.097",
+      "OBBGSIN.095",
+      "OBBGSIN.026"
+    ]
   }
 ]
